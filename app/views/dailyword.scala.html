@@ -1,0 +1,35 @@
+@(cnKey: String, cnDes: String, jpKey: String, jpDes: String, enKey: String, enDes: String)
+<!doctype html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>剑道辞典</title>
+  </head>
+
+  <body>
+    <h2>这些剑道词汇你知道吗？</h2>
+
+@if(cnKey.trim() != "") {
+  <ul>
+    <li>【中文】@cnKey</li>
+    <li>@cnDes</li>
+  </ul>
+}
+
+@if(jpKey.trim() != "") {
+  <ul>
+    <li>【日本語】@jpKey</li>
+    <li>@jpDes</li>
+  </ul>
+}
+
+@if(enKey.trim() != "") {
+  <ul>
+    <li>【English】@enKey</li>
+    <li>@enDes</li>
+  </ul>
+}
+
+  </body>
+</html>

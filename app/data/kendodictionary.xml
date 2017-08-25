@@ -1,0 +1,2808 @@
+<dictionary id="" name="剑道 和英辞典" author="全日本剑道连盟出版 - 明剑馆翻译开发">
+    <entry>
+        <keys>
+            <key language="chinese"></key>
+            <key language="japanese">あがる</key>
+            <key language="english">agaru(v.)</key>
+        </keys>
+        <descriptions>
+            <description language="chinese"></description>
+            <description language="japanese">はじめて試合をするときや大きな大会に出場したときなど、平常な精神状態でなくなる。興奮しすぎて心身のコントロールがうまくいかなくなる。稽古や仕事に一段落をつけて終わる。腕前などが上達する。段位が進む。</description>
+            <description language="english">To experience an unusual mental condition in one s first match or in a big tournament, To become overexcited and unable to control one’s mental and physical condition. To successfully finish up a part of one's keiko  or work. To make progress in developing one’s skills. To be promoted to a higher dan (grade).</description>
+        </descriptions>
+        <resources>
+            <resource type="image" url=""></resource>
+            <resource type="audio"></resource>
+            <resource type="video"></resource>
+        </resources>
+    </entry>
+    <entry>
+        <keys>
+            <key language="chinese"></key>
+            <key language="japanese">相中段</key>
+            <key language="english">ai-chudan(n.)</key>
+        </keys>
+        <descriptions>
+            <description language="chinese"></description>
+            <description language="japanese">試合、稽古あるいは形を行うとき、互いが中段に構えること、およびその状態。</description>
+            <description language="english">The state which both players are in the chudan stance (middle-guard position) during matches, practice, or kata performance.</description>
+        </descriptions>
+        <resources>
+            <resource type="image" url=""></resource>
+            <resource type="audio"></resource>
+            <resource type="video"></resource>
+        </resources>
+    </entry>
+	<entry>
+        <keys>
+            <key language="chinese"></key>
+            <key language="japanese">相下段</key>
+            <key language="english">ai-gedan(n.)</key>
+        </keys>
+        <descriptions>
+            <description language="chinese"></description>
+            <description language="japanese">試合、稽古あるいは形を行うとき、互いが下段に構えること、およびその状態。</description>
+            <description language="english">The state which both players are in the gedan stance (lower-guard position) during matches, practice, or kata performance.</description>
+        </descriptions>
+        <resources>
+            <resource type="image" url=""></resource>
+            <resource type="audio"></resource>
+            <resource type="video"></resource>
+        </resources>
+    </entry>
+	<entry>
+        <keys>
+            <key language="chinese"></key>
+            <key language="japanese">相上段</key>
+            <key language="english">ai-jodan(n.)</key>
+        </keys>
+        <descriptions>
+            <description language="chinese"></description>
+            <description language="japanese">試合、稽古あるいは形を行うとき、互いが上段に構えること、およびその状態。</description>
+            <description language="english">The state which both players are in the jodan stance (upper-guard position) during matches, practice, or kata performance.</description>
+        </descriptions>
+        <resources>
+            <resource type="image" url=""></resource>
+            <resource type="audio"></resource>
+            <resource type="video"></resource>
+        </resources>
+    </entry>
+	<entry>
+        <keys>
+            <key language="chinese"></key>
+            <key language="japanese">合気</key>
+            <key language="english">aiki(n.)</key>
+        </keys>
+        <descriptions>
+            <description language="chinese"></description>
+            <description language="japanese">相手と気を合わせ、充実した自然の気が相手に集中して、闘う気迫を込めて対峙している状態。また、相手と気を合わせない、あえて気を外すことがある。これを「合気を外す」という。（「気」参照）</description>
+            <description language="english">The state of facing each other with strong fighting spirit and with one’s ki in sync with the opponent’s. with both protagonists fully focused on each other. Players often intentionally avoids adjusting their ki to that of the opponent; this act is called aiki-wo-hazusu(avoiding aikt).See ki.</description>
+        </descriptions>
+        <resources>
+            <resource type="image" url=""></resource>
+            <resource type="audio"></resource>
+            <resource type="video"></resource>
+        </resources>
+    </entry>
+	<entry>
+        <keys>
+            <key language="chinese"></key>
+            <key language="japanese">相対する</key>
+            <key language="english">aitai-suru (v.)</key>
+        </keys>
+        <descriptions>
+            <description language="chinese"></description>
+            <description language="japanese">互いに闘う気迫で向かい合う。</description>
+            <description language="english">To face each other with strong fighting spirit.</description>
+        </descriptions>
+        <resources>
+            <resource type="image" url=""></resource>
+            <resource type="audio"></resource>
+            <resource type="video"></resource>
+        </resources>
+    </entry>
+	<entry>
+        <keys>
+            <key language="chinese"></key>
+            <key language="japanese">相手</key>
+            <key language="english">aite (n.)</key>
+        </keys>
+        <descriptions>
+            <description language="chinese"></description>
+            <description language="japanese">自分と試合、稽古あるいは形を行 う人。試合相手とか稽古相手などというときもある。「相手」は自分の修行の協力者でもある。</description>
+            <description language="english">An opponent; a person who a player faces in a match, keiko, or kata peformance. Shiat-aite (a match opponent) and keiko-aite (trainine- partner) are also used. An aite is also a person who cooperates in one’s quest for improvement.</description>
+        </descriptions>
+        <resources>
+            <resource type="image" url=""></resource>
+            <resource type="audio"></resource>
+            <resource type="video"></resource>
+        </resources>
+    </entry>
+	<entry>
+        <keys>
+            <key language="chinese"></key>
+            <key language="japanese">相打ち</key>
+            <key language="english">ai-uclti (n.)</key>
+        </keys>
+        <descriptions>
+            <description language="chinese"></description>
+            <description language="japanese">試合や稽古のとき、両方が同時に有効打突になるような打突が行われた状態。試合においては有効打突としない。同時に二人が面を打ち両方共に面にとどかず、竹刀と竹刀を切り結んだ状態も「相打ち」ということがある。日本剣道形四本目にみられる切り結んだ状態も「相打ち」という。</description>
+            <description language="english">The situation in which each player makes a valid strike simultaneously during a match or keiko. In matches, these strikes are not yuko(valid). A situation in which both players try a men strike but hit the opponent's shinai instead of men is also called ai-uchi. An example of such a situation can be seen in the fourth form (yonhon-me) of Nippon Kendo Kata.</description>
+        </descriptions>
+        <resources>
+            <resource type="image" url=""></resource>
+            <resource type="audio"></resource>
+            <resource type="video"></resource>
+        </resources>
+    </entry>
+	<entry>
+        <keys>
+            <key language="chinese"></key>
+            <key language="japanese">藍染</key>
+            <key language="english">aizome (n.)</key>
+        </keys>
+        <descriptions>
+            <description language="chinese"></description>
+            <description language="japanese">藍という植物から取った濃い青色の染料で布地を染めること、および染めた布地。紺色の剣道着•袴は藍染によるものが多い。</description>
+            <description language="english">Cloth died with a deep blue indigo dye made from a plant called ai; clothes dyed with ai. Many blue kendo-gi and hakama have been dyed with ai.</description>
+        </descriptions>
+        <resources>
+            <resource type="image" url=""></resource>
+            <resource type="audio"></resource>
+            <resource type="video"></resource>
+        </resources>
+    </entry>
+	<entry>
+        <keys>
+            <key language="chinese"></key>
+            <key language="japanese">あます</key>
+            <key language="english">amasu (v.)</key>
+        </keys>
+        <descriptions>
+            <description language="chinese"></description>
+            <description language="japanese">相手の意図を見抜き、しかけてきた技に対して、余裕をもって間合を取り、自分を優位な立場に置いて、ネ目手の打突を不十分にする。</description>
+            <description language="english">To perceive an opponent’s intention to strike, and then take a superior position by stepping back with composure as the strike is made, thereby making it invalid.</description>
+        </descriptions>
+        <resources>
+            <resource type="image" url=""></resource>
+            <resource type="audio"></resource>
+            <resource type="video"></resource>
+        </resources>
+    </entry>
+	<entry>
+        <keys>
+            <key language="chinese"></key>
+            <key language="japanese">アンチ•ドーピング</key>
+            <key language="english">anti-doping</key>
+        </keys>
+        <descriptions>
+            <description language="chinese"></description>
+            <description language="japanese">ドーピングとは、競技能力を高めるために、禁止物質や禁止方法を使用すること。2003年（平成15年）、 世界中の競技者の健康、公平及び平等を促進する目的から、世界アンチ. ドーピング規程（WADA規程）が国際的な共通ルールとして採択された。国際剣道連盟および全日本剣道 連盟は、ドーピングは試合者の健康を損ない、剣道の理念及び剣道試合-審判規則の目的に相反するものであることから、WADA規程を批准し、2006(平成18年）年にFIKアンチ-ドーピング規程を、2007(平成19年）年に全日本剣道連盟アンチ.ドーピング規程を制定し、ドーピングの防止に努めている。</description>
+            <description language="english">Doping refers the use of forbidden substances or methods to improve athletic performance. In 2003 (Heisei 15), the World Anti-Doping Agency Code (WADA Code) was adopted to harmonize anti-doping policies in all sports and all countries for the sake of athlete safety and fairness. The International Kendo federation (FIK) and the All Japan kendo Federation acknowledges that doping is dangerous to competitors, and is also in breach of the objectives stated in the &quot;Concept of Kendo&quot; and the Regulations and Subsidiary Rules of Kendo Shiai and Shinpan. In ratification of the WADA Code, the FIK Anti-Doping Code was established in 2006 (Heisei 18) and the AJKF Anti-Doping Code in 2007 (Heisei 19) as a measure to prevent doping in kendo.</description>
+        </descriptions>
+        <resources>
+            <resource type="image" url=""></resource>
+            <resource type="audio"></resource>
+            <resource type="video"></resource>
+        </resources>
+    </entry>
+	<entry>
+        <keys>
+            <key language="chinese"></key>
+            <key language="japanese">足構え</key>
+            <key language="english">ashi-gamae(n.)</key>
+        </keys>
+        <descriptions>
+            <description language="chinese"></description>
+            <description language="japanese">相手の動きに対応して瞬時に動作することができる両足の位置•状態。 (「足幅」参照）</description>
+            <description language="english">The positioning and condition of both feet that enables players to react instantly to any move by their opponent. See ashi-haba.</description>
+        </descriptions>
+        <resources>
+            <resource type="image" url=""></resource>
+            <resource type="audio"></resource>
+            <resource type="video"></resource>
+        </resources>
+    </entry>
+	<entry>
+        <keys>
+            <key language="chinese"></key>
+            <key language="japanese">足幅</key>
+            <key language="english">ashi-haba(n.)</key>
+        </keys>
+        <descriptions>
+            <description language="chinese"></description>
+            <description language="japanese">基本的な足構えにおける両足の前後および左右の幅。中段の構えでは、前後の幅は右足の踵の末端に左足の爪先がくる位置、左右の間隔はおよそ拳一握りくらいあける位置、そして爪先は左右とも前方を向き、両足は平行に置く。これを基本とし、各 自の体型などによって調整する。</description>
+            <description language="english">In a basic ashi-gamae position, the distance between the feet, from right to left and from front to back. In the chudan stance, the distance between the front foot and back foot is determined by bringing the tips of the toes of the left foot up as far as the back of the right heel. The distance between the right foot and the left foot should be the width of approximately one fist. The feet are positioned facing forward and parallel. This is the basic position, but should be adjusted according to each practitioner’s physique.</description>
+        </descriptions>
+        <resources>
+            <resource type="image" url=""></resource>
+            <resource type="audio"></resource>
+            <resource type="video"></resource>
+        </resources>
+    </entry>
+	<entry>
+        <keys>
+            <key language="chinese"></key>
+            <key language="japanese">足運び</key>
+            <key language="english">ashi-hakobi(n.)</key>
+        </keys>
+        <descriptions>
+            <description language="chinese"></description>
+            <description language="japanese">足さばきと同じ。(「足さばき」_照）</description>
+            <description language="english">The same as ashi-sabaki. See ashi-sabaki.</description>
+        </descriptions>
+        <resources>
+            <resource type="image" url=""></resource>
+            <resource type="audio"></resource>
+            <resource type="video"></resource>
+        </resources>
+    </entry>
+	<entry>
+        <keys>
+            <key language="chinese"></key>
+            <key language="japanese">足さばき</key>
+            <key language="english">ashi-sabaki(n.)</key>
+        </keys>
+        <descriptions>
+            <description language="chinese"></description>
+            <description language="japanese">相手を打突したり、かわしたりするための足の運び方。歩み足、送り足、開き足、継ぎ足の四つがあるこれらの足さばきは基本的に「すり足」で行う。（「すり足」参照）</description>
+            <description language="english">Footwork to attack smoothly or avoid a swiftly striking opponent; there are four kinds of footwork, ayumi-ashi, okuri-ashi, hiraki- ashi, and tsugi-ashi. These ashi-sabaki snould basically be done with suri-ashi. See suri-asni.</description>
+        </descriptions>
+        <resources>
+            <resource type="image" url=""></resource>
+            <resource type="audio"></resource>
+            <resource type="video"></resource>
+        </resources>
+    </entry>
+	<entry>
+        <keys>
+            <key language="chinese"></key>
+            <key language="japanese">あたる</key>
+            <key language="english">ataru(v.)</key>
+        </keys>
+        <descriptions>
+            <description language="chinese"></description>
+            <description language="japanese">偶然に打突部位を打突する。相手と対戦する。「あてる」はあたるの他 動詞。（「打つ」参照）</description>
+            <description language="english">To hit accidentally. To have a match with an opponent. Ateru is the transitive form of ataru. See utsu.</description>
+        </descriptions>
+        <resources>
+            <resource type="image" url=""></resource>
+            <resource type="audio"></resource>
+            <resource type="video"></resource>
+        </resources>
+    </entry>
+	<entry>
+        <keys>
+            <key language="chinese"></key>
+            <key language="japanese">後打ち</key>
+            <key language="english">ato-uchi(n.)</key>
+        </keys>
+        <descriptions>
+            <description language="chinese"></description>
+            <description language="japanese">剣道の試合や稽古において、相手に一本を決められているにもかかわらず、それを打ち消すため、あるいは悔しまぎれに、打たれた方がさらに相手に対して打ち込む打突。</description>
+            <description language="english">Striking back just alter the opponent scores iopon in a match or keiko. This is done in an attempt to deny that the iopon occurred, or in vexation at having been scored upon.</description>
+        </descriptions>
+        <resources>
+            <resource type="image" url=""></resource>
+            <resource type="audio"></resource>
+            <resource type="video"></resource>
+        </resources>
+    </entry>
+	<entry>
+        <keys>
+            <key language="chinese"></key>
+            <key language="japanese">阿呻の呼吸</key>
+            <key language="english">aun-no-kokyu(n.)</key>
+        </keys>
+        <descriptions>
+            <description language="chinese"></description>
+            <description language="japanese">相手と呼吸が合っていること。形の演武などにおいて、互いの微妙な 調子や拍子が合っていること。	</description>
+            <description language="english">Matching one’s breathing with an opponent’s. Having rhythm and timing in sync with a partner during the performance of kata, etc.</description>
+        </descriptions>
+        <resources>
+            <resource type="image" url=""></resource>
+            <resource type="audio"></resource>
+            <resource type="video"></resource>
+        </resources>
+    </entry>
+	<entry>
+        <keys>
+            <key language="chinese"></key>
+            <key language="japanese">歩み足</key>
+            <key language="english">ayumi-ashi(n.)</key>
+        </keys>
+        <descriptions>
+            <description language="chinese"></description>
+            <description language="japanese">足さばきの方法の一つ。歩行運動をすり足にて行い、遠い間合を速く移動する場合に使う。（「足さばき」参照）</description>
+            <description language="english">A type of ashi-sabaki. It is an ordinary walking movement done by sliding one foot; it is used for moving back and forth quickly, and for covering a long distance. See ashi-sabaki.</description>
+        </descriptions>
+        <resources>
+            <resource type="image" url=""></resource>
+            <resource type="audio"></resource>
+            <resource type="video"></resource>
+        </resources>
+    </entry>
+	<entry>
+        <keys>
+            <key language="chinese"></key>
+            <key language="japanese">抜刀</key>
+            <key language="english">batto(n.)</key>
+        </keys>
+        <descriptions>
+            <description language="chinese"></description>
+            <description language="japanese">刀を抜くこと。日本剣道形の演武において、立礼の後、互いに大きく三歩前進し、蹲踞しながら刀を抜く動作。</description>
+            <description language="english">The act of drawing a sword.When performing Nippon Kendo Kata, the sword is drawn while moving into a squatting position (sonkyo) after doing the standing bow and taking three steps forward.</description>
+        </descriptions>
+        <resources>
+            <resource type="image" url=""></resource>
+            <resource type="audio"></resource>
+            <resource type="video"></resource>
+        </resources>
+    </entry>
+	<entry>
+        <keys>
+            <key language="chinese"></key>
+            <key language="japanese">防御</key>
+            <key language="english">bogyo(n.)</key>
+        </keys>
+        <descriptions>
+            <description language="chinese"></description>
+            <description language="japanese">相手から打突をされないように自分を守ること。そのために竹刀で受けたり、体をさばいて相手の竹刀の働きを無効にすること。</description>
+            <description language="english">The act of defending one’s self so as not to be struck; the act of countering an opponent’s strike by dodging it, or blocking it with the shinai.</description>
+        </descriptions>
+        <resources>
+            <resource type="image" url=""></resource>
+            <resource type="audio"></resource>
+            <resource type="video"></resource>
+        </resources>
+    </entry>
+	<entry>
+        <keys>
+            <key language="chinese"></key>
+            <key language="japanese">木剣</key>
+            <key language="english">bokken(n.)</key>
+        </keys>
+        <descriptions>
+            <description language="chinese"></description>
+            <description language="japanese">「木刀」参照</description>
+            <description language="english">See bokuto.</description>
+        </descriptions>
+        <resources>
+            <resource type="image" url=""></resource>
+            <resource type="audio"></resource>
+            <resource type="video"></resource>
+        </resources>
+    </entry>
+	<entry>
+        <keys>
+            <key language="chinese"></key>
+            <key language="japanese">木刀</key>
+            <key language="english">bokuto(n.)</key>
+        </keys>
+        <descriptions>
+            <description language="chinese"></description>
+            <description language="japanese">樫や枇杷などの木で日本刀に模してつくられた刀。木剣、木太刀ともいう。</description>
+            <description language="english">A wooden sword made in the shape of a Japanese sword from oak, loquat, or other types of wood. Also called a bokken or kidachi.</description>
+        </descriptions>
+        <resources>
+            <resource type="image" url=""></resource>
+            <resource type="audio"></resource>
+            <resource type="video"></resource>
+        </resources>
+    </entry>
+	<entry>
+        <keys>
+            <key language="chinese"></key>
+            <key language="japanese">防具</key>
+            <key language="english">boqu(n.)</key>
+        </keys>
+        <descriptions>
+            <description language="chinese"></description>
+            <description language="japanese">剣道具と同じ。（「剣道具」参照）</description>
+            <description language="english">Same as kendo-gu. See kendo-gu. </description>
+        </descriptions>
+        <resources>
+            <resource type="image" url=""></resource>
+            <resource type="audio"></resource>
+            <resource type="video"></resource>
+        </resources>
+    </entry>
+	<entry>
+        <keys>
+            <key language="chinese"></key>
+            <key language="japanese">防具袋</key>
+            <key language="english">bogu-bukuro(n.)</key>
+        </keys>
+        <descriptions>
+            <description language="chinese"></description>
+            <description language="japanese">道具袋と同じ。（「道具袋」参照）</description>
+            <description language="english">Same as dogu-bukuro. See dogu-bukuro.</description>
+        </descriptions>
+        <resources>
+            <resource type="image" url=""></resource>
+            <resource type="audio"></resource>
+            <resource type="video"></resource>
+        </resources>
+    </entry>
+	<entry>
+        <keys>
+            <key language="chinese"></key>
+            <key language="japanese">武</key>
+            <key language="english">bu(n.)</key>
+        </keys>
+        <descriptions>
+            <description language="chinese"></description>
+            <description language="japanese">戈（ほこ.武器）と止（あし.足） からなる漢字で、武器を持って雄雄しく前進するさまを表している。儒学の影響が強かった江戸時代には、 「武」は「戈（ほこ）を止（とどむ)」と解して、戦いを止めることをもって世を治めるとする解釈もあった。</description>
+            <description language="english">The Chinese character bu (武) depicts advancing on 'foot'(足； ashi) with 'weapons'(戈; hoko) ; so bu can mean to charge forward fiercely. Under the strong influence of Confucianism during the Edo era, bu came to be defined by the characters for 'weapon' (戈； hoko) and 'stop' (止; todomu) to mean that the world should not be ruled through strength of arms.</description>
+        </descriptions>
+        <resources>
+            <resource type="image" url=""></resource>
+            <resource type="audio"></resource>
+            <resource type="video"></resource>
+        </resources>
+    </entry>
+	<entry>
+        <keys>
+            <key language="chinese"></key>
+            <key language="japanese">武道</key>
+            <key language="english">budo(n.)</key>
+        </keys>
+        <descriptions>
+            <description language="chinese"></description>
+            <description language="japanese">近世においては武士の守るベき道をさした。近代以降は、武術の修錬を通して学ぶ人間としての道をさす。武術の稽古に高い精神性を求め、単なる術の稽古だけではない名称として、1919年（大正8年）当時、武術の統括団体であつた大日本武徳会が、撃剣•柔術.弓術を剣道.柔道-弓道と名称変更し、それらを総称する名称として新たに武道という名称を使ったことにより一般化したことば。今日では、さらに多くの種目を含めて武道と呼び、 剣道.柔道•弓道.相撲.なぎなた.合気道.空手道•統剣道•少林寺拳法の総括名称として用いられている。(「武道道」参照）</description>
+            <description language="english">A term denoting the way of the warnor during the early-modern period, from the modern period it refers to learning how to live as a human being through training； in the martial arts. In 1919 (Taisho 8), the Dai-Nippon Butokukai, the supervising organization for the martial arts at that time, changed the names of gekken, jujutsu, and kyujutsu to kendo, juao, and kyudo, respectively. The term budo was then used to refer collectively to these disciplines. The new names reflected the fact that martial arts training has an important spirtual side, and does not consist only of training in techniques, Today, budo encompasses even more disciplines, with the term being used widely to refer to martial arts such as kendo, judo, kyudo, sumo，naginata, aikido, karatedd, jukendo, and shorinji kenpo. See bushido.</description>
+        </descriptions>
+        <resources>
+            <resource type="image" url=""></resource>
+            <resource type="audio"></resource>
+            <resource type="video"></resource>
+        </resources>
+    </entry>
+	<entry>
+        <keys>
+            <key language="chinese"></key>
+            <key language="japanese">武道館</key>
+            <key language="english">budokan(n.)</key>
+        </keys>
+        <descriptions>
+            <description language="chinese"></description>
+            <description language="japanese">武道を行うために設備された建物。古くは武道場といった。（「日本武道館」參照）</description>
+            <description language="english">A building or facility designed for budo training. In the past such facilities were called budo- jo. See Nippon Budokan.</description>
+        </descriptions>
+        <resources>
+            <resource type="image" url=""></resource>
+            <resource type="audio"></resource>
+            <resource type="video"></resource>
+        </resources>
+    </entry>
+	<entry>
+        <keys>
+            <key language="chinese"></key>
+            <key language="japanese">武芸</key>
+            <key language="english">bugei(n.)</key>
+        </keys>
+        <descriptions>
+            <description language="chinese"></description>
+            <description language="japanese">心身を錬磨するための武の技芸。「芸」には、技術を修得することにより心身を鍛錬.洗練するという意味がある。（「武道」参照）</description>
+            <description language="english">Military arts (the art of bu). The gei part of bugei connotes the training of mind and boay through the study of techniques. Bugei, then, refers to bu techniques studied in order to train the mind and body. See budo.</description>
+        </descriptions>
+        <resources>
+            <resource type="image" url=""></resource>
+            <resource type="audio"></resource>
+            <resource type="video"></resource>
+        </resources>
+    </entry>
+	<entry>
+        <keys>
+            <key language="chinese"></key>
+            <key language="japanese">武術</key>
+            <key language="english">bujutsu(n.)</key>
+        </keys>
+        <descriptions>
+            <description language="chinese"></description>
+            <description language="japanese">「武道」参照。</description>
+            <description language="english">See budo.</description>
+        </descriptions>
+        <resources>
+            <resource type="image" url=""></resource>
+            <resource type="audio"></resource>
+            <resource type="video"></resource>
+        </resources>
+    </entry>
+	<entry>
+        <keys>
+            <key language="chinese"></key>
+            <key language="japanese">文武両道</key>
+            <key language="english">bunbu-ryoao(n.)</key>
+        </keys>
+        <descriptions>
+            <description language="chinese"></description>
+            <description language="japanese">剣道の長い歴史の中で言い伝えられて来たことば。文は学問全般を指し、武は剣道（武道）を指す。学問と剣道はどちらも大事であり、この二つを学ぶことによって人間として立派に成長していこうという意味がある。</description>
+            <description language="english">This term has been handed down throughout the long history of kendo. Bun refers to overall learning, and bu refers to kendo in particular and budo in general. It means that both learning and kendo practice are important for full development as a human being.</description>
+        </descriptions>
+        <resources>
+            <resource type="image" url=""></resource>
+            <resource type="audio"></resource>
+            <resource type="video"></resource>
+        </resources>
+    </entry>
+	<entry>
+        <keys>
+            <key language="chinese"></key>
+            <key language="japanese">武士</key>
+            <key language="english">bushi(n.)</key>
+        </keys>
+        <descriptions>
+            <description language="chinese"></description>
+            <description language="japanese">昔、武芸を学び軍事にたずさわった者。さむらい。</description>
+            <description language="english">Feudal warriors (samurai) who studied the martial arts (bugei) and specialized in military affairs.</description>
+        </descriptions>
+        <resources>
+            <resource type="image" url=""></resource>
+            <resource type="audio"></resource>
+            <resource type="video"></resource>
+        </resources>
+    </entry>
+	<entry>
+        <keys>
+            <key language="chinese"></key>
+            <key language="japanese">武士道</key>
+            <key language="english">Bushido(n.)</key>
+        </keys>
+        <descriptions>
+            <description language="chinese"></description>
+            <description language="japanese">武士が守るべき道。武士が武士らしく生きる生き方。忠誠.犠牲：信義-廉恥•礼儀.潔白.質素.儉約.尚武.名誉.情愛などを重んじるものである。「武士道精神」と同意。</description>
+            <description language="english">The way of the warrior; the proper way of life for a warrior. In this way of life, loyalty, sacrifice, faithfulness, avoidance of shame, courtesy, purity, frugality, thrift, shobu (respect for budo), honor, and affection are all held as important virtues. Same as busmdo-seishin.</description>
+        </descriptions>
+        <resources>
+            <resource type="image" url=""></resource>
+            <resource type="audio"></resource>
+            <resource type="video"></resource>
+        </resources>
+    </entry>
+	<entry>
+        <keys>
+            <key language="chinese"></key>
+            <key language="japanese">武徳殿</key>
+            <key language="english">Butokuden(n.)</key>
+        </keys>
+        <descriptions>
+            <description language="chinese"></description>
+            <description language="japanese">1899年（明治32年）に平安神宮境内に設けられた大日本武徳会の演武場。その後、各県にも武徳殿と称する中央道場が設けられた。</description>
+            <description language="english">The Dai-Nippon Butokukai's hall tor the performance of budo, which was built on the grounds of the Heian Shrine in 1899 (Meiji 32). Subsequently, central halls for martial arts practice, also called butokuden, were built in each prefecture.</description>
+        </descriptions>
+        <resources>
+            <resource type="image" url=""></resource>
+            <resource type="audio"></resource>
+            <resource type="video"></resource>
+        </resources>
+    </entry>
+	<entry>
+        <keys>
+            <key language="chinese"></key>
+            <key language="japanese">武徳祭</key>
+            <key language="english">butokusai(n.)</key>
+        </keys>
+        <descriptions>
+            <description language="chinese"></description>
+            <description language="japanese">武徳殿の建設に伴い、平安神宮境 内において武術の発展を祈願するた めの演武会として開催された祭礼。1953年（昭和28年）全日本剣道連盟の結成の翌年に復活し、今日では全日本剣道演武大会（京都大会）として行われている。</description>
+            <description language="english">A festival held to pray for the development of bujutsu in the form of exhibition matches alter the construction of the Butokuden in the precincts of Heian Shrine. This festival was revived in 1953 (Showa 28), the year after the formation of the All Japan Kendo Federation, and is still held today as the All Japan Kendo Enbu (Exhibition) Tournament (Kyoto Taikai).</description>
+        </descriptions>
+        <resources>
+            <resource type="image" url=""></resource>
+            <resource type="audio"></resource>
+            <resource type="video"></resource>
+        </resources>
+    </entry>
+	<entry>
+        <keys>
+            <key language="chinese"></key>
+            <key language="japanese">茶巾絞り</key>
+            <key language="english">chakin-shibori(n.)</key>
+        </keys>
+        <descriptions>
+            <description language="chinese"></description>
+            <description language="japanese">竹刀を両手で握って構えるときの 握り方や、打突時の両手の働かせ方 を言い表したことば。打突時の手の しめ具合が茶道における茶巾の絞り 方と似ていることからきたことば。 小指、薬指、中指を締め、人差し指 と親指は軽く添えるようにする。</description>
+            <description language="english">Term referring to the way to grip the shinai with both hands when assuming a fighting stance, or the way to move the hands when striking. This term originated from the idea that the way the shinai is gripped when striking resembles the method used to wring out a towel in the tea ceremony. One grips tightly with the little, ring, and middle fingers, and loosely with the thumb and forefinger.</description>
+        </descriptions>
+        <resources>
+            <resource type="image" url=""></resource>
+            <resource type="audio"></resource>
+            <resource type="video"></resource>
+        </resources>
+    </entry>
+	<entry>
+        <keys>
+            <key language="chinese"></key>
+            <key language="japanese">着装</key>
+            <key language="english">chakuso(n.)</key>
+        </keys>
+        <descriptions>
+            <description language="chinese"></description>
+            <description language="japanese">剣道着•袴および剣道具などを身につけること、および身につけた姿。着装は、剣道を修錬する心構えを映し出しているといっても過言ではなく、乱れのない確実な着装と端正な姿で修錬することが大切である。(付録「剣道着と袴の着装法」「剣道具の着装法」參照）</description>
+            <description language="english">The putting on of kendo-gi, hakama, kendo-gu, etc., and the appearance created by putting them on. Chakuso is indicative of one's attitude to the study of kendo, and so it is important to dress meticulously with handsome form when training. See APPENDIX: Putting on the Kendo-gi and Hakama, Putting on the Kendo-gu.</description>
+        </descriptions>
+        <resources>
+            <resource type="image" url=""></resource>
+            <resource type="audio"></resource>
+            <resource type="video"></resource>
+        </resources>
+    </entry>
+	<entry>
+        <keys>
+            <key language="chinese"></key>
+            <key language="japanese">着座</key>
+            <key language="english">chakuza(n.)</key>
+        </keys>
+        <descriptions>
+            <description language="chinese"></description>
+            <description language="japanese">座席につくこと。席にすわること。 剣道では立っている姿勢から床にすわることを意味する。すわり方にも正座、安座などがある。（「左座右起」「正座」参照）</description>
+            <description language="english">The act of sitting down or taking a seat; in kendo, this refers to sitting down on the floor from a standing position. Ways of sitting include seiza and anza. See seiza, saza-uki.</description>
+        </descriptions>
+        <resources>
+            <resource type="image" url=""></resource>
+            <resource type="audio"></resource>
+            <resource type="video"></resource>
+        </resources>
+    </entry>
+	<entry>
+        <keys>
+            <key language="chinese"></key>
+            <key language="japanese">ちぎり</key>
+            <key language="english">chigiri(n.)</key>
+        </keys>
+        <descriptions>
+            <description language="chinese"></description>
+            <description language="japanese">竹刀の形状維持と危険防止のために柄頭の内部に入れてある鉄板。これにより4本の竹片を固定する。（付録「竹刀各部の名称と規準」参照）</description>
+            <description language="english">The small iron plate that is put inside a shinai to keep its shape and as a safety measure. It holds the four pieces of bamboo together. See APPENDIX: Names and Standards for the Parts of  the Shinai.</description>
+        </descriptions>
+        <resources>
+            <resource type="image" url=""></resource>
+            <resource type="audio"></resource>
+            <resource type="video"></resource>
+        </resources>
+    </entry>
+	<entry>
+        <keys>
+            <key language="chinese"></key>
+            <key language="japanese">近間</key>
+            <key language="english">chika-ma(n.)</key>
+        </keys>
+        <descriptions>
+            <description language="chinese"></description>
+            <description language="japanese">一般的には「近い間合」という。「一足一刀の間合」よりも近い間合。自分の打ちが容易にとどくかわりに、相手の攻撃もとどく距離。（「一足一刀の間合」「間合」参照）</description>
+            <description language="english">Generally called chikai-maai (closer distance). A smaller distance than issoku-itto-no-maai. At this distance，one’s strike can easily reach the opponent, but the same holds for the opponent's strike. See issoku-itto-no-maai, maai.</description>
+        </descriptions>
+        <resources>
+            <resource type="image" url=""></resource>
+            <resource type="audio"></resource>
+            <resource type="video"></resource>
+        </resources>
+    </entry>
+	<entry>
+        <keys>
+            <key language="chinese"></key>
+            <key language="japanese">蝶結び</key>
+            <key language="english">cho-musubi(n.)</key>
+        </keys>
+        <descriptions>
+            <description language="chinese"></description>
+            <description language="japanese">ひもを結ぶ方法の一種。蝶が羽を広げたような形になる結び方。面ひも、胴の腰ひもを結ぶときなどに使う結び方。</description>
+            <description language="english">One of the ways of tying a himo (cord); a way of  tying the cords together to resemble a butterfly with open wings (cno means butterfly and musubi means knot). Used for tying men-himo and koshi-himo.</description>
+        </descriptions>
+        <resources>
+            <resource type="image" url=""></resource>
+            <resource type="audio"></resource>
+            <resource type="video"></resource>
+        </resources>
+    </entry>
+	<entry>
+        <keys>
+            <key language="chinese"></key>
+            <key language="japanese">跳躍素振り</key>
+            <key language="english">choyaku-suburi(n.)</key>
+        </keys>
+        <descriptions>
+            <description language="chinese"></description>
+            <description language="japanese">前後に跳躍しながら連続的に行う素振り。早素振りともいう。（「素振り」参照）</description>
+            <description language="english">A way of practicing swinging the shinai which involves continuously jumping forward and backward. It is also called haya-suburi. See suburi.</description>
+        </descriptions>
+        <resources>
+            <resource type="image" url=""></resource>
+            <resource type="audio"></resource>
+            <resource type="video"></resource>
+        </resources>
+    </entry>
+	<entry>
+        <keys>
+            <key language="chinese"></key>
+            <key language="japanese">中段の構え</key>
+            <key language="english">chudan-no-kamae(n.)</key>
+        </keys>
+        <descriptions>
+            <description language="chinese"></description>
+            <description language="japanese">立位姿勢から右足をやや前に出し、右足のかかとの線に沿って左足爪先を置くようにし、右手で竹刀の鍔元、左手で柄頭を握り、剣先の延長が相 手の両眼の間の方向を向くように竹刀を保持した構え。攻撃にも防御にも適している剣道の基本となる構え。「せいがんの構え」ともいわれた。 （「構え」参照）</description>
+            <description language="english">One of the stances; standing upright, the right foot is forward slightly, with the front of the left foot placed in line with the right heel. The shinai is held with the right hand just below the tsuba (sword guard), and with the left hand at the tsuka-gashira (end of the shinai hilt), while the extension of the kensen (tip of the shinai) points between the opponent’s eyes. This is the basic kendo stance and it is suitable for both attacking and defending. It also used to be called seigan-no-kamae. See kamae.</description>
+        </descriptions>
+        <resources>
+            <resource type="image" url=""></resource>
+            <resource type="audio"></resource>
+            <resource type="video"></resource>
+        </resources>
+    </entry>
+	<entry>
+        <keys>
+            <key language="chinese"></key>
+            <key language="japanese">中心</key>
+            <key language="english">chushin(n.)</key>
+        </keys>
+        <descriptions>
+            <description language="chinese"></description>
+            <description language="japanese">まんなか。最も重要な所。剣道では、眉間、喉元や鳩尾などがある正中線。「中墨（なかずみ)」ともいう。 試合場の真ん中を示す×印。</description>
+            <description language="english">The center: the most important place. In kendo, the centerline on which the center of the forehead, throat, and stomach are located. Also called the nakazumi. The term chushin is also used to refer to the x mark which designates the center of the match court.</description>
+        </descriptions> 
+        <resources>
+            <resource type="image" url=""></resource>
+            <resource type="audio"></resource>
+            <resource type="video"></resource>
+        </resources>
+    </entry>
+	<entry>
+        <keys>
+            <key language="chinese"></key>
+            <key language="japanese">打撃動作</key>
+            <key language="english">dageki-dosa(n.)</key>
+        </keys>
+        <descriptions>
+            <description language="chinese"></description>
+            <description language="japanese">「打つ」参照。</description>
+            <description language="english">See utsu.</description>
+        </descriptions>
+        <resources>
+            <resource type="image" url=""></resource>
+            <resource type="audio"></resource>
+            <resource type="video"></resource>
+        </resources>
+    </entry>
+	<entry>
+        <keys>
+            <key language="chinese"></key>
+            <key language="japanese">大刀</key>
+            <key language="english">daito(n.)</key>
+        </keys>	
+        <descriptions>
+            <description language="chinese"></description>
+            <description language="japanese">二本の竹刀（二刀）を使用して稽古や試合をする場合の長い方の竹刀。形で用いる長い方の木刀•刀。（「木刀」「太刀」参照）</description>
+            <description language="english">The longer shinai when two shinai (nito) are used in keiko or a match; the longer sword or wooden sword used in a kata, See bokuto and tachi.</description>
+        </descriptions>
+        <resources>
+            <resource type="image" url=""></resource>
+            <resource type="audio"></resource>
+            <resource type="video"></resource>
+        </resources>
+    </entry>
+	<entry>
+        <keys>
+            <key language="chinese"></key>
+            <key language="japanese">大日本武徳会</key>
+            <key language="english">Dai-Nippon Butokukai(n.)</key>
+        </keys>
+        <descriptions>
+            <description language="chinese"></description>
+            <description language="japanese">1895年（明治28年）、桓武帝以来の尚武の精神である「武徳」を涵養し、武術の復興と普及をはかるため、京都の平安神宮境内に創設された。全国に支部を設け、段位称号の授与、武徳祭の挙行、演武会などの実施、武道教員の養成など武道振興の殿堂としての役割を果たしたが、敗戦後の1946年（昭和21年）に解散した。</description>
+            <description language="english">Based on Emperor Kanmu's ideals of "butoku" or martial virtue that he espoused in ancient times to promote a fighting spirit among his warriors,the Dai-Nippon Butokukai was established inside the precincts of the Heian Shrine in Kyoto in 1895 (Meiji 28) for the purpose of reviving and promoting Japan's traditional martial arts. Branches of the organization were launched throughout the country, and the Butokukai actively engaged in the conferment of ranks and titles, conducting the martial arts festival (Butokusai) and other demonstrations, and educating specialist budo  instructors for the purpose of popularizing the martial arts. The organization was disbanded after the Second World War in 1946 (Showa 21).</description>
+        </descriptions>
+        <resources>
+            <resource type="image" url=""></resource>
+            <resource type="audio"></resource>
+            <resource type="video"></resource>
+        </resources>
+    </entry>
+	<entry>
+        <keys>
+            <key language="chinese"></key>
+            <key language="japanese">大日本帝国剣道形</key>
+            <key language="english">Dai-Nippon Teikoku Kendo Kata(n.)</key>
+        </keys>
+        <descriptions>
+            <description language="chinese"></description>
+            <description language="japanese">1911年（明治44年）、中学校• 師範学校で撃剣の正課採用が決定されたのを受けて、その統一的な指導内容と方法の必要性から1912年(大正元年）につくられた剣道形。この形は、1917年（大正6年）に加注、 1933年（昭和8年）の増補加注の後、戦後、剣道復活にともない「日本剣道形」と呼ばれ、1981年（昭和56年)に「日本剣道形解説書」として現代表記に書き改められて今日に至っている。（「日本剣道形」参照）</description>
+            <description language="english">After it was decided that gekken (kendo) could be taught as a regular subject in middle and normal schools in 1911 (Meiji 44), there was a need for a unified teaching methodology. This provided the impetus for the creation of a new set of kendo katai(1912). Amendments and adaitions to the original version were made in 1917 (Taisho 21) and 1933 (Showa 8), after which it was renamed as the Nippon Kendo Kata in the post-war revival of kendo. In 1981 (Showa 56), the Nippon Kendo Kata Kaisetsu-sho was published as the official reference book for the kata, ana is the official explanation used today. See Nippon Kendo Kata.</description>
+        </descriptions>
+        <resources>
+            <resource type="image" url=""></resource>
+            <resource type="audio"></resource>
+            <resource type="video"></resource>
+        </resources>
+    </entry>
+	<entry>
+        <keys>
+            <key language="chinese"></key>
+            <key language="japanese">段位</key>
+            <key language="english">dan’i(n.)</key>
+        </keys>
+        <descriptions>
+            <description language="chinese"></description>
+            <description language="japanese">技能の程度を表す位。級の上に位する。剣道では初段から八段までの審査がある。（「段と級」参照）</description>
+            <description language="english">Rank indicating level of skill; dan rank is higher than kyu rank. In kendo there are examinations for the ranks from shodan (first dan) to hachidan (eighth dan). See dan-to-kyu.</description>
+        </descriptions>
+        <resources>
+            <resource type="image" url=""></resource>
+            <resource type="audio"></resource>
+            <resource type="video"></resource>
+        </resources>
+    </entry>
+	<entry>
+        <keys>
+            <key language="chinese"></key>
+            <key language="japanese">団体戦</key>
+            <key language="english">dantai-sen(n.)</key>
+        </keys>
+        <descriptions>
+            <description language="chinese"></description>
+            <description language="japanese">団体試合と同じ。（「団体試合」参照）</description>
+            <description language="english">See dantai-shiai.</description>
+        </descriptions>
+        <resources>
+            <resource type="image" url=""></resource>
+            <resource type="audio"></resource>
+            <resource type="video"></resource>
+        </resources>
+    </entry>
+	<entry>
+        <keys>
+            <key language="chinese"></key>
+            <key language="japanese">団体試合</key>
+            <key language="english">dantai-shiai(n.)</key>
+        </keys>
+        <descriptions>
+            <description language="chinese"></description>
+            <description language="japanese">三人以上の選手がチームを組んで他のチームと対抗して試合をする競技方式。団体試合の方法には、勝者数法と勝抜き法とがある。（「試合方法」参照）</description>
+            <description language="english">A type of match in which teams of three or more players compete.There are two types of dantai-shiai: shosha-su-ho (each player has one match and the outcome is decided by the total number of winners), and (a player continues to face opponents until losing). See shiai-hoho.</description>
+        </descriptions>
+        <resources>
+            <resource type="image" url=""></resource>
+            <resource type="audio"></resource>
+            <resource type="video"></resource>
+        </resources>
+    </entry>
+	<entry>
+        <keys>
+            <key language="chinese"></key>
+            <key language="japanese">段と級</key>
+            <key language="english">dan-to-kyu(n.)</key>
+        </keys>
+        <descriptions>
+            <description language="chinese"></description>
+            <description language="japanese">剣道への理解度の目安、技能の程度を示す制度。段はもともと講道館柔道で用いられ、1883年（明治16年）に最初の初段が発行された。級は警視庁を中心に剣道で用いられ、1885年（明治18年）に制度化された。剣道で段を用いたのは、1908年（明治41年）に東京高等師範学校が最初である。全国的に段.級制度が統—さ れたのは、1917年（大正6年）大日本武徳会がこれを採用してからである。このとき、段は初段から十段まで、級は初段の下に一級から六級までとされた。（「段位」参照）</description>
+            <description language="english">The system for indicating the level of one’s understanding of kendo and the level of one's skill. The dan system was originally adopted in Kodo-kan Judo, with the first shodan being issued in 1883 (Meiji 16). The kyu system was used in kendo mainly by the Tokyo Metropolitan Police Department and was systematized in 1885 (Meiji 18). In kendo, the Tokyo Higher Normal School first used dan in 1908 (Meiji 41). The dan and kyu system was standardized throughout the country after the Dai-Nippon Butokukai adopted this system in 1917 (Taisho 6). At that time dan ranged from shodan (first dan) up to judan (tenth dan), and kyu ranged from 1-kyu (which is just below shodan) down to 6-kyu. See dan'i.</description>
+        </descriptions>
+        <resources>
+            <resource type="image" url=""></resource>
+            <resource type="audio"></resource>
+            <resource type="video"></resource>
+        </resources>
+    </entry>
+	<entry>
+        <keys>
+            <key language="chinese"></key>
+            <key language="japanese">打突</key>
+            <key language="english">datotsu(n.)</key>
+        </keys>
+        <descriptions>
+            <description language="chinese"></description>
+            <description language="japanese">打つことと突くこと。</description>
+            <description language="english">A strike or thrust.</description>
+        </descriptions>
+        <resources>
+            <resource type="image" url=""></resource>
+            <resource type="audio"></resource>
+            <resource type="video"></resource>
+        </resources>
+    </entry>
+	<entry>
+        <keys>
+            <key language="chinese"></key>
+            <key language="japanese">打突部位</key>
+            <key language="english">datotsu-bui(n.)</key>
+        </keys>
+        <descriptions>
+            <description language="chinese"></description>
+            <description language="japanese">正確に打突されたとき一本になる箇所。面部•小手部•胴部•突部。（付録「打突部位の名称」参照）</description>
+            <description language="english">Zones where a point is scored when an accurate strike or thrust is made. It refers to the men-bu, kote-bu, do-bu, and tsuki-bu. See APPENDIX: Striking Zones.</description>
+        </descriptions>
+        <resources>
+            <resource type="image" url=""></resource>
+            <resource type="audio"></resource>
+            <resource type="video"></resource>
+        </resources>
+    </entry>
+	<entry>
+        <keys>
+            <key language="chinese"></key>
+            <key language="japanese">打突動作</key>
+            <key language="english">datotsu-dosa(n.)</key>
+        </keys>
+        <descriptions>
+            <description language="chinese"></description>
+            <description language="japanese">上肢による竹刀操作と下肢による体の移動が協調的に働いて相手の打突部位を打突する一連の動作。</description>
+            <description language="english">The continuous motion of striking the opponent's datotsu-bui (striking zones) with coordination of the arms, which manipulate the shinai, and the legs, which move the body.</description>
+        </descriptions>
+        <resources>
+            <resource type="image" url=""></resource>
+            <resource type="audio"></resource>
+            <resource type="video"></resource>
+        </resources>
+    </entry>
+	<entry>
+        <keys>
+            <key language="chinese"></key>
+            <key language="japanese">打突の好機</key>
+            <key language="english">datotsu-no-koki(n.)</key>
+        </keys>
+        <descriptions>
+            <description language="chinese"></description>
+            <description language="japanese">打突すべき最も良い機会。その代表的なものは、「技の起こり」「技のつきたところ」「居ついたところ」「相手がひいたところ」「技を受け止めたところ」などがある。これらをよく理解して稽古することが技能の向上のために重要である。</description>
+            <description language="english">The best moment to strike. Typical opportunities for striking include when the opponent begins, blocks, finishes a strike, or moves back. It is important to practice recognizing these moments in order to improve one’s skill.</description>
+        </descriptions>
+        <resources>
+            <resource type="image" url=""></resource>
+            <resource type="audio"></resource>
+            <resource type="video"></resource>
+        </resources>
+    </entry>
+	<entry>
+        <keys>
+            <key language="chinese"></key>
+            <key language="japanese">出ばな</key>
+            <key language="english">debana(n.)</key>
+        </keys>
+        <descriptions>
+            <description language="chinese"></description>
+            <description language="japanese">相手が攻め込もうとしたり打突しようとしたりする意思を発した瞬間。打突の好機でもある。（「打突の好機」参照）</description>
+            <description language="english">The moment when a player moves forward to apply pressure or is about to attack. This is a good opportunity to strike. See datotsu-no-koki.</description>
+        </descriptions>
+        <resources>
+            <resource type="image" url=""></resource>
+            <resource type="audio"></resource>
+            <resource type="video"></resource>
+        </resources>
+    </entry>
+	<entry>
+        <keys>
+            <key language="chinese"></key>
+            <key language="japanese">出ばな技</key>
+            <key language="english">debana-waza(n.)</key>
+        </keys>
+        <descriptions>
+            <description language="chinese"></description>
+            <description language="japanese">相手が攻め込もうとしたり打突しようとする動作の起こり端をとらえて打ち込む技。特に相手の技の起こりがいちばん表れるのは剣先と手元の動きである。（「出ばな」、付録「技の分類」参照）</description>
+            <description language="english">A waza executed the instant when the opponent moves forward to apply pressure or is about to attack. The start of the opponent's waza can be discerned with the movement of hands or the kensen. See debana, and APPENDIX: Types of Waza.</description>
+        </descriptions>
+        <resources>
+            <resource type="image" url=""></resource>
+            <resource type="audio"></resource>
+            <resource type="video"></resource>
+        </resources>
+    </entry>
+	<entry>
+        <keys>
+            <key language="chinese"></key>
+            <key language="japanese">出頭</key>
+            <key language="english">degashira(n.)</key>
+        </keys>
+        <descriptions>
+            <description language="chinese"></description>
+            <description language="japanese">「出ばな」と同じ。（「出ばな」参照）</description>
+            <description language="english">Same as debana. See debana.</description>
+        </descriptions>
+        <resources>
+            <resource type="image" url=""></resource>
+            <resource type="audio"></resource>
+            <resource type="video"></resource>
+        </resources>
+    </entry>
+	<entry>
+        <keys>
+            <key language="chinese"></key>
+            <key language="japanese">出稽古</key>
+            <key language="english">de-geiko(n.)</key>
+        </keys>
+        <descriptions>
+            <description language="chinese"></description>
+            <description language="japanese">他の道場やグループの剣士達と稽古や試合をするために、自ら出かけていくこと。（「稽古」参照）</description>
+            <description language="english">The act of going out to practice and having bouts with kendo players belonging to other dojo or groups. See keiko.</description>
+        </descriptions>
+        <resources>
+            <resource type="image" url=""></resource>
+            <resource type="audio"></resource>
+            <resource type="video"></resource>
+        </resources>
+    </entry>
+	<entry>
+        <keys>
+            <key language="chinese"></key>
+            <key language="japanese">伝統文化</key>
+            <key language="english">dento-bunka(n.)</key>
+        </keys>
+        <descriptions>
+            <description language="chinese"></description>
+            <description language="japanese">古くから伝えられて来た生活文化、 生活様式、そして行動規範など、有 形無形のその国独特の文化。日本では•剣道•柔道•相撲•弓道などの武道、能•歌舞伎•浄瑠璃などの舞台芸術ならびに茶道華道などの芸道のこと。</description>
+            <description language="english">Traditional culture; the characteristic tangible and intangible national culture handed down from ancient times, including modes and ways of life, behavioral norms, and so on. In Japan, this term is used for performing arts such as no, kabuki，and joruri，for geido (arts) such as sado (tea ceremony) and kado (flower arrangement), and for budo such as kendo, judo, sumo, and kyudo.</description>
+        </descriptions>
+        <resources>
+            <resource type="image" url=""></resource>
+            <resource type="audio"></resource>
+            <resource type="video"></resource>
+        </resources>
+    </entry>
+	
+	<entry>
+        <keys>
+            <key language="chinese"></key>
+            <key language="japanese">胴</key>
+            <key language="english">do(n.)</key>
+        </keys>
+        <descriptions>
+            <description language="chinese"></description>
+            <description language="japanese">剣道具の一つで、胸と腹部を覆う物。打突部位の一つ。剣道の技の一種で、相手の胴部を打つ技。(付録「剣道具の名称」、付録「打突部位の名称」参照）</description>
+            <description language="english">The piece of kendo equipment which covers the chest and stomach areas. One of the striking zones (datotsu-bui). The kendo waza where one strikes the opponent's do area. See APPENDIX: Kendo Equipment and Gear; Striking Zones.</description>
+        </descriptions>
+        <resources>
+            <resource type="image" url=""></resource>
+            <resource type="audio"></resource>
+            <resource type="video"></resource>
+        </resources>
+    </entry>
+	<entry>
+        <keys>
+            <key language="chinese"></key>
+            <key language="japanese">動中静</key>
+            <key language="english">do-chu-sei(n.)</key>
+        </keys>
+        <descriptions>
+            <description language="chinese"></description>
+            <description language="japanese">稽古や試合などで相手と対峙するとき、理想的な心身全体の働かせ方を指し示したことば。外面は体を活発に動かしていても、内面は相手を冷静に観察している状態。また、逆に「静中動」とは、外面は体を静止させていても、内面は気持ちを充実させ何時でも対応できる状態。この二つをあわせて「動静一如」ともいわれる。</description>
+            <description language="english">This term explains the ideal way of using the mind and body when facing an opponent in keiko or a match. The state where the mind is calmly watching the opponent, even though the body is moving rapidly. The contrasting term sei-chu-do refers to the state where even though the body outwardly appears to be still, inwardly the mind is fully ready to respond at any time.The term combining these two states is dosei-ichinyo.</description>
+        </descriptions>
+        <resources>
+            <resource type="image" url=""></resource>
+            <resource type="audio"></resource>
+            <resource type="video"></resource>
+        </resources>
+    </entry>
+	<entry>
+        <keys>
+            <key language="chinese"></key>
+            <key language="japanese">道着</key>
+            <key language="english">dogi(n.)</key>
+        </keys>
+        <descriptions>
+            <description language="chinese"></description>
+            <description language="japanese">剣道着のこと。（「剣道着」参照）</description>
+            <description language="english">Same as kendo-gi. See kendo-gi.</description>
+        </descriptions>
+        <resources>
+            <resource type="image" url=""></resource>
+            <resource type="audio"></resource>
+            <resource type="video"></resource>
+        </resources>
+    </entry>
+	<entry>
+        <keys>
+            <key language="chinese"></key>
+            <key language="japanese">道具袋</key>
+            <key language="english">dogu-bukuro(n.)</key>
+        </keys>
+        <descriptions>
+            <description language="chinese"></description>
+            <description language="japanese">剣道具を入れる袋。「防具袋」ともいう。</description>
+            <description language="english">A bag in which kendo equipment is put. Also called bodu-bukuro.</description>
+        </descriptions>
+        <resources>
+            <resource type="image" url=""></resource>
+            <resource type="audio"></resource>
+            <resource type="video"></resource>
+        </resources>
+    </entry>
+	<entry>
+        <keys>
+            <key language="chinese"></key>
+            <key language="japanese">道場</key>
+            <key language="english">dojo(n.)</key>
+        </keys>
+        <descriptions>
+            <description language="chinese"></description>
+            <description language="japanese">釈尊が悟りを開いた菩提樹下の地を道場と呼び、のちに武道修行の場 所を道場とよぶようになった。それ は、剣道が単に技術の習得に留まる ものではなく、人間いかに生きるベきかという問題と密接なかかわりを持ってきたことに由来する。つまり剣道を通じて自分自身を見つめ直す特別な場所という意味で道場といわれるのである。</description>
+            <description language="english">The place Buddha attained enlightenment, halls in which budo arts were studied (shugyo) also came to be referred to as dojo. This implies that kendo does not stop with the acquisition of techniques, but is inextricably linked with humanity and the problem of how one should live one's life. In other words, the dojo is a special place in which the practitioner is able to reexamine the self through the study of kendo.</description>
+        </descriptions>
+        <resources>
+            <resource type="image" url=""></resource>
+            <resource type="audio"></resource>
+            <resource type="video"></resource>
+        </resources>
+    </entry>
+	<entry>
+        <keys>
+            <key language="chinese">道場訓</key>
+            <key language="japanese">dojo-kun (n.)</key>
+            <key language="english"></key>
+        </keys>
+        <descriptions>
+            <description language="chinese"></description>
+            <description language="japanese">道場が指導の目的とする訓（おしえ）を示したもの。</description>
+            <description language="english">Words or phrases expressing the objectives of instruction in the dojo.</description>
+        </descriptions>
+        <resources>
+            <resource type="image" url=""></resource>
+            <resource type="audio"></resource>
+            <resource type="video"></resource>
+        </resources>
+    </entry>
+	<entry>
+        <keys>
+            <key language="chinese"></key>
+            <key language="japanese">動静一如</key>
+            <key language="english">do-sei-ichinyo(n.)</key>
+        </keys>
+        <descriptions>
+            <description language="chinese"></description>
+            <description language="japanese">「動中静」参照。</description>
+            <description language="english">See do-chu-sei.</description>
+        </descriptions>
+        <resources>
+            <resource type="image" url=""></resource>
+            <resource type="audio"></resource>
+            <resource type="video"></resource>
+        </resources>
+    </entry>
+	<entry>
+        <keys>
+            <key language="chinese"></key>
+            <key language="japanese">胴打ち</key>
+            <key language="english">do-uchi(n.)</key>
+        </keys>
+        <descriptions>
+            <description language="chinese"></description>
+            <description language="japanese">胴を打つこと</description>
+            <description language="english">The act of striking do.</description>
+        </descriptions>
+        <resources>
+            <resource type="image" url=""></resource>
+            <resource type="audio"></resource>
+            <resource type="video"></resource>
+        </resources>
+    </entry>
+	<entry>
+        <keys>
+            <key language="chinese"></key>
+            <key language="japanese">胴技</key>
+            <key language="english">do-waza(n.)</key>
+        </keys>
+        <descriptions>
+            <description language="chinese"></description>
+            <description language="japanese">相手の胴部を打つ技の総称。（付録「技の分類」參照）</description>
+            <description language="english">The general term for waza for striking the opponent's do. See APPENDIX: Types of Waza.</description>
+        </descriptions>
+        <resources>
+            <resource type="image" url=""></resource>
+            <resource type="audio"></resource>
+            <resource type="video"></resource>
+        </resources>
+    </entry>
+	<entry>
+        <keys>
+            <key language="chinese"></key>
+            <key language="japanese">縁</key>
+            <key language="english">en(n.)</key>
+        </keys>
+        <descriptions>
+            <description language="chinese"></description>
+            <description language="japanese">稽古•試合などで形成される相手と自分とのつながり。剣道では「縁」を切らないで持続させることが大切である。</description>
+            <description language="english">The relationship between players and their opponents during keiko and matches. In keido it is important to sustain this relationship without cutting the connection.</description>
+        </descriptions>
+        <resources>
+            <resource type="image" url=""></resource>
+            <resource type="audio"></resource>
+            <resource type="video"></resource>
+        </resources>
+    </entry>
+	<entry>
+        <keys>
+            <key language="chinese"></key>
+            <key language="japanese">演武</key>
+            <key language="english">enbu(n.)</key>
+        </keys>
+        <descriptions>
+            <description language="chinese"></description>
+            <description language="japanese">人前で武道の技を披露すること。</description>
+            <description language="english">The act of demonstrating budo in public.</description>
+        </descriptions>
+        <resources>
+            <resource type="image" url=""></resource>
+            <resource type="audio"></resource>
+            <resource type="video"></resource>
+        </resources>
+    </entry>
+	<entry>
+        <keys>
+            <key language="chinese"></key>
+            <key language="japanese">遠山の目付け</key>
+            <key language="english">enzan-no-metsuke(n.)</key>
+        </keys>
+        <descriptions>
+            <description language="chinese"></description>
+            <description language="japanese">あたかも遠くの山を眺めるように、一点を凝視せず相手全体を見ることが大切であると教えたことば。（「目付け」参照）</description>
+            <description language="english">A term meaning it is important to look at the figure of the opponent as a whole rather than at a particular point, as if looking at a far away mountain. See metsuke.</description>
+        </descriptions>
+        <resources>
+            <resource type="image" url=""></resource>
+            <resource type="audio"></resource>
+            <resource type="video"></resource>
+        </resources>
+    </entry>
+	<entry>
+        <keys>
+            <key language="chinese"></key>
+            <key language="japanese">不動心</key>
+            <key language="english">fudoshin(n.)</key>
+        </keys>
+        <descriptions>
+            <description language="chinese"></description>
+            <description language="japanese">如何なることにも心を動かされず、とらわれないこと。また、あらゆる状況の変化に対しその場その場において対応ができる柔軟な心。</description>
+            <description language="english">A state of mind which is not moved or distracted by anything; a flexible state of mind able to respond to various changing situations.</description>
+        </descriptions>
+        <resources>
+            <resource type="image" url=""></resource>
+            <resource type="audio"></resource>
+            <resource type="video"></resource>
+        </resources>
+    </entry>
+	<entry>
+        <keys>
+            <key language="chinese"></key>
+            <key language="japanese">袋しない</key>
+            <key language="english">fukuro-shinai(n.)</key>
+        </keys>
+        <descriptions>
+            <description language="chinese"></description>
+            <description language="japanese">刀や木刀の代わりに実戦的に打ち合つことができるよう考案された道具。革などで作られた細長い円筒形の袋に細かく割った竹を挿入して作られ、安全に稽古ができるように工夫されたもの。（「撓（しない）」参照）</description>
+            <description language="english">A training tool invented for use in place of a sword or bokuto so opponents can strike each other without restraint as if in actual battle. It is made of split bamboo covered with a cylindrical leather bag, and designed to enable safe practice. See shinai.</description>
+        </descriptions>
+        <resources>
+            <resource type="image" url=""></resource>
+            <resource type="audio"></resource>
+            <resource type="video"></resource>
+        </resources>
+    </entry>
+	<entry>
+        <keys>
+            <key language="chinese"></key>
+            <key language="japanese">腹式呼吸</key>
+            <key language="english">fukushiki-kokyu(n.)</key>
+        </keys>
+        <descriptions>
+            <description language="chinese"></description>
+            <description language="japanese">「丹田呼吸」参照。</description>
+            <description language="english">See tanden-Kokyu.</description>
+        </descriptions>
+        <resources>
+            <resource type="image" url=""></resource>
+            <resource type="audio"></resource>
+            <resource type="video"></resource>
+        </resources>
+    </entry>
+	<entry>
+        <keys>
+            <key language="chinese"></key>
+            <key language="japanese">踏み切り</key>
+            <key language="english">fumikiri(n.)</key>
+        </keys>
+        <descriptions>
+            <description language="chinese"></description>
+            <description language="japanese">「踏み切る」参照。</description>
+            <description language="english">See fumikiru.</description>
+        </descriptions>
+        <resources>
+            <resource type="image" url=""></resource>
+            <resource type="audio"></resource>
+            <resource type="video"></resource>
+        </resources>
+    </entry>
+	<entry>
+        <keys>
+            <key language="chinese"></key>
+            <key language="japanese">踏み切り足</key>
+            <key language="english">fumikiri-ashi(n.)</key>
+        </keys>
+        <descriptions>
+            <description language="chinese"></description>
+            <description language="japanese">「踏み切る」参照。</description>
+            <description language="english">See fumikiru.</description>
+        </descriptions>
+        <resources>
+            <resource type="image" url=""></resource>
+            <resource type="audio"></resource>
+            <resource type="video"></resource>
+        </resources>
+    </entry>
+	<entry>
+        <keys>
+            <key language="chinese"></key>
+            <key language="japanese">踏み切り動作</key>
+            <key language="english">fumikiri-dosa(n.)</key>
+        </keys>
+        <descriptions>
+            <description language="chinese"></description>
+            <description language="japanese">「踏み切る」参照。</description>
+            <description language="english">See fumikiru.</description>
+        </descriptions>
+        <resources>
+            <resource type="image" url=""></resource>
+            <resource type="audio"></resource>
+            <resource type="video"></resource>
+        </resources>
+    </entry>
+	<entry>
+        <keys>
+            <key language="chinese"></key>
+            <key language="japanese">踏み切る</key>
+            <key language="english">fumikiru(v.)</key>
+        </keys>
+        <descriptions>
+            <description language="chinese"></description>
+            <description language="japanese">身体を素早く移動させるために、足で力強く床を蹴る。剣道では、身体を移動させる場合、床面を蹴る足を「踏み切り足」という。「踏み切り足」で力強く床面を蹴る一連の動作を「踏み切り動作」という。（「踏み切り」は名詞形）</description>
+            <description language="english">To kick forcefully off the floor so that the body moves quickly. In kendo the foot whicn kicks off the floor when moving the body is called the fumikiri-ashi. The motion of kicking forcefully off the floor with the fumikiri- ashi is called the fumikiri-dosa. FumiKiri is the noun form.</description>
+        </descriptions>
+        <resources>
+            <resource type="image" url=""></resource>
+            <resource type="audio"></resource>
+            <resource type="video"></resource>
+        </resources>
+    </entry>
+	<entry>
+        <keys>
+            <key language="chinese"></key>
+            <key language="japanese">踏み込み</key>
+            <key language="english">fumikomi (n.)</key>
+        </keys>
+        <descriptions>
+            <description language="chinese"></description>
+            <description language="japanese">「踏み込む」参照。</description>
+            <description language="english">See Jumikomu.</description>
+        </descriptions>
+        <resources>
+            <resource type="image" url=""></resource>
+            <resource type="audio"></resource>
+            <resource type="video"></resource>
+        </resources>
+    </entry>
+	<entry>
+        <keys>
+            <key language="chinese"></key>
+            <key language="japanese">踏み込み足</key>
+            <key language="english">fumikomi-ashi (n.)</key>
+        </keys>
+        <descriptions>
+            <description language="chinese"></description>
+            <description language="japanese">「踏み込む」参照。</description>
+            <description language="english">See fumikomu</description>
+        </descriptions>
+        <resources>
+            <resource type="image" url=""></resource>
+            <resource type="audio"></resource>
+            <resource type="video"></resource>
+        </resources>
+    </entry>
+	<entry>
+        <keys>
+            <key language="chinese"></key>
+            <key language="japanese">踏み込み動作</key>
+            <key language="english">fumikomi-dosa (n.)</key>
+        </keys>
+        <descriptions>
+            <description language="chinese"></description>
+            <description language="japanese">「踏み込む」参照。</description>
+            <description language="english">See fumikomu.</description>
+        </descriptions>
+        <resources>
+            <resource type="image" url=""></resource>
+            <resource type="audio"></resource>
+            <resource type="video"></resource>
+        </resources>
+    </entry>
+	<entry>
+        <keys>
+            <key language="chinese"></key>
+            <key language="japanese">踏み込む</key>
+            <key language="english">fumikomu (v.)</key>
+        </keys>
+        <descriptions>
+            <description language="chinese"></description>
+            <description language="japanese">打突するとき、身体を安定して移動させるために、左（右）足で強く踏み切り右（左）足で強く床面を踏 み付ける。足の裏全体で床面を強く 踏み付ける前足を「踏み込み足」という。その後、後ろ足を素早く前足に引き付け、「送り足」で身体を前万に移動させるまでの一連の動作を「踏み込み動作」という。（「踏み込み」は名詞形）</description>
+            <description language="english">Stamping on the floor with the front foot in order to move the body steadily when striking. Kicking off with the left (right foot), and stamping the floor with the right (left) foot. The foot used to stamp the floor with the entire sole is called the fumikomi-ashi. The series of motions from stamping and snapping the back foot up quickly and moving the body forward with okuri-ashi is called the fumikomi-dosa. Fumikomi is the noun form.</description>
+        </descriptions>
+        <resources>
+            <resource type="image" url=""></resource>
+            <resource type="audio"></resource>
+            <resource type="video"></resource>
+        </resources>
+    </entry>
+	<entry>
+        <keys>
+            <key language="chinese"></key>
+            <key language="japanese">振りかぶる</key>
+            <key language="english">furikaburu (v.)</key>
+        </keys>
+        <descriptions>
+            <description language="chinese"></description>
+            <description language="japanese">竹刀を頭の上に振り上げる。</description>
+            <description language="english">To swing the shinai up above one's head.</description>
+        </descriptions>
+        <resources>
+            <resource type="image" url=""></resource>
+            <resource type="audio"></resource>
+            <resource type="video"></resource>
+        </resources>
+    </entry>
+	<entry>
+        <keys>
+            <key language="chinese"></key>
+            <key language="japanese">振り下ろす</key>
+            <key language="english">furiorosu (v.)</key>
+        </keys>
+        <descriptions>
+            <description language="chinese"></description>
+            <description language="japanese">振りかぶった竹刀で面·小手·胴の部位に打ち下ろす。</description>
+            <description language="english">To swing the shinai down from an upward position and strike men, kote, or do.</description>
+        </descriptions>
+        <resources>
+            <resource type="image" url=""></resource>
+            <resource type="audio"></resource>
+            <resource type="video"></resource>
+        </resources>
+    </entry>
+	<entry>
+        <keys>
+            <key language="chinese"></key>
+            <key language="japanese">振る</key>
+            <key language="english">furu (v.)</key>
+        </keys>
+        <descriptions>
+            <description language="chinese"></description>
+            <description language="japanese">竹刀を上下左右あるいは斜め方向に連続的に動かす。</description>
+            <description language="english">To move the shinai continuously up and down, right and left, or diagonally.</description>
+        </descriptions>
+        <resources>
+            <resource type="image" url=""></resource>
+            <resource type="audio"></resource>
+            <resource type="video"></resource>
+        </resources>
+    </entry>
+	<entry>
+        <keys>
+            <key language="chinese"></key>
+            <key language="japanese">防ぐ</key>
+            <key language="english">fusegu (v.)</key>
+        </keys>
+        <descriptions>
+            <description language="chinese"></description>
+            <description language="japanese">防御と同じ。（「防御」参照）</description>
+            <description language="english">Same as bogyo. See bogyo.</description>
+        </descriptions>
+        <resources>
+            <resource type="image" url=""></resource>
+            <resource type="audio"></resource>
+            <resource type="video"></resource>
+        </resources>
+    </entry>
+	<entry>
+        <keys>
+            <key language="chinese"></key>
+            <key language="japanese">学科試験</key>
+            <key language="english">gakka-shiken (n.)</key>
+        </keys>
+        <descriptions>
+            <description language="chinese"></description>
+            <description language="japanese">昇段審査を受けるときに行われる剣道に関する理論的内容についての試験。</description>
+            <description language="english">A written test of kendo theory which must be taken when applying for a higher dan.</description>
+        </descriptions>
+        <resources>
+            <resource type="image" url=""></resource>
+            <resource type="audio"></resource>
+            <resource type="video"></resource>
+        </resources>
+    </entry>
+	<entry>
+        <keys>
+            <key language="chinese"></key>
+            <key language="japanese">学校剣道</key>
+            <key language="english">gakko-kendo (n.)</key>
+        </keys>
+        <descriptions>
+            <description language="chinese"></description>
+            <description language="japanese">学校の授業や課外活動で行われている剣道全般のこと。</description>
+            <description language="english">The general study of kendo in school lessons or as an extracurricular activity.</description>
+        </descriptions>
+        <resources>
+            <resource type="image" url=""></resource>
+            <resource type="audio"></resource>
+            <resource type="video"></resource>
+        </resources>
+    </entry>
+	<entry>
+        <keys>
+            <key language="chinese"></key>
+            <key language="japanese">合宿</key>
+            <key language="english">gasshuku (n.)</key>
+        </keys>
+        <descriptions>
+            <description language="chinese"></description>
+            <description language="japanese">仲間と寝食を共にしながら、短期間に集中して技能を高めるために行う稽古法。</description>
+            <description language="english">A way of training in which fellow kendo practitioners stay together for a short period of time practicing kendo intensively in order to develop their skills.</description>
+        </descriptions>
+        <resources>
+            <resource type="image" url=""></resource>
+            <resource type="audio"></resource>
+            <resource type="video"></resource>
+        </resources>
+    </entry>
+	<entry>
+        <keys>
+            <key language="chinese"></key>
+            <key language="japanese">下段の構え</key>
+            <key language="english">gedan-no-kamae (n.)</key>
+        </keys>
+        <descriptions>
+            <description language="chinese"></description>
+            <description language="japanese">中段の構えから剣先を相手の膝頭あたりに下げた構え。日本剣道形の下段の構えにおいては、剣先を膝頭の下3〜6cmの高さにする。守りの構えといわれている。</description>
+            <description language="english">One of the stances; the tip of the sword is lowered from chudan-no-kamae (middle-guard position) down to the level of the opponent’s kneecap. When performing Nippon Kendo Kata, the level of the sword tip in gedan-no-kamae should be 3 to 6 cm below the opponent’s kneecap. This posture is considered suitable for defense.</description>
+        </descriptions>
+        <resources>
+            <resource type="image" url=""></resource>
+            <resource type="audio"></resource>
+            <resource type="video"></resource>
+        </resources>
+    </entry>
+	<entry>
+        <keys>
+            <key language="chinese"></key>
+            <key language="japanese">撃剣</key>
+            <key language="english">gekken (n.)</key>
+        </keys>
+        <descriptions>
+            <description language="chinese"></description>
+            <description language="japanese">小手.面•胴.垂を着用し、竹刀を使用して自由に打ち込む剣術。最初は形（型）剣術を補完するために考案されたが、時代とともに試合剣術として発展•普及し現代剣道のルーツとなった。</description>
+            <description language="english">A term for traditional kenjutsu that utilised kote, men, do, tare and shinai to engage in lull-contact sparring. It was originally devised to complement kata kenjutsu, but over time it developed into a competitive style of fencing- that forms the roots of modern kendo.</description>
+        </descriptions>
+        <resources>
+            <resource type="image" url=""></resource>
+            <resource type="audio"></resource>
+            <resource type="video"></resource>
+        </resources>
+    </entry>
+	<entry>
+        <keys>
+            <key language="chinese"></key>
+            <key language="japanese">撃剣興行</key>
+            <key language="english">gekken-kogyo (n.)</key>
+        </keys>
+        <descriptions>
+            <description language="chinese"></description>
+            <description language="japanese">1871年（明治4年）の廃藩置県により生活に困窮した武術家を救済するため、榊原鍵吉らによって、撃剣が興行として組織され、「撃剣会」として1873年（明治6年)、浅草で実施され大人気となった。その後多くの武術家も興行を願い、撃剣会は各地で開催されたが明治10年代後半に姿を消した。</description>
+            <description language="english">After domains were dismantled and the prefectural system was introduced in 1871 (Meiji 4), many martial artists became destitute with no form of income. As a way of earning money for martial arts experts, Sakakibara Kenkichi started a fencing exhibition (gekken-kai) in 1873 (Meiji 6) that became very popular with fee-paying members of the public. Due to the popularity of these performance matches, many martial artists wished to compete, and the demonstrations were held nationwide, but disappeared from the 1880s.</description>
+        </descriptions>
+        <resources>
+            <resource type="image" url=""></resource>
+            <resource type="audio"></resource>
+            <resource type="video"></resource>
+        </resources>
+    </entry>
+	<entry>
+        <keys>
+            <key language="chinese"></key>
+            <key language="japanese">後</key>
+            <key language="english">go(n.)</key>
+        </keys>
+        <descriptions>
+            <description language="chinese"></description>
+            <description language="japanese">時間的にも、空間的にも相手よりも遅れること。</description>
+            <description language="english">The condition of being behind the opponent, in terms of time or space.</description>
+        </descriptions>
+        <resources>
+            <resource type="image" url=""></resource>
+            <resource type="audio"></resource>
+            <resource type="video"></resource>
+        </resources>
+    </entry>
+	<entry>
+        <keys>
+            <key language="chinese">互格</key>
+            <key language="japanese">gokaku (n.)</key>
+            <key language="english"></key>
+        </keys>
+        <descriptions>
+            <description language="chinese">技量に差のないこと。五分と五分の能力。</description>
+            <description language="japanese">The condition of being equal in skill; fifty-fifty in ability.</description>
+            <description language="english"></description>
+        </descriptions>
+        <resources>
+            <resource type="image" url=""></resource>
+            <resource type="audio"></resource>
+            <resource type="video"></resource>
+        </resources>
+    </entry>
+	<entry>
+        <keys>
+            <key language="chinese"></key>
+            <key language="japanese">極意</key>
+            <key language="english">gokui (n.)</key>
+        </keys>
+        <descriptions>
+            <description language="chinese"></description>
+            <description language="japanese">ものごとの本質や核心。究極の技を得るための方法。</description>
+            <description language="english">The essence or core of things; the way to acquire the highest skills or techniques.</description>
+        </descriptions>
+        <resources>
+            <resource type="image" url=""></resource>
+            <resource type="audio"></resource>
+            <resource type="video"></resource>
+        </resources>
+    </entry>
+	<entry>
+        <keys>
+            <key language="chinese"></key>
+            <key language="japanese">後の先</key>
+            <key language="english">go-no-sen (n.)</key>
+        </keys>
+        <descriptions>
+            <description language="chinese"></description>
+            <description language="japanese">「三つの先」参照。</description>
+            <description language="english">See mittsu-no-sen.</description>
+        </descriptions>
+        <resources>
+            <resource type="image" url=""></resource>
+            <resource type="audio"></resource>
+            <resource type="video"></resource>
+        </resources>
+    </entry>
+	<entry>
+        <keys>
+            <key language="chinese"></key>
+            <key language="japanese">後手</key>
+            <key language="english">gote (n.)</key>
+        </keys>
+        <descriptions>
+            <description language="chinese"></description>
+            <description language="japanese">相手に先を越されること。やることが相手より遅れてしまうこと。</description>
+            <description language="english">The condition of being surpassed by the opponent. Being behind in work or other activities.</description>
+        </descriptions>
+        <resources>
+            <resource type="image" url=""></resource>
+            <resource type="audio"></resource>
+            <resource type="video"></resource>
+        </resources>
+    </entry>
+	<entry>
+        <keys>
+            <key language="chinese"></key>
+            <key language="japanese">逆胴</key>
+            <key language="english">gyaku-do (n.)</key>
+        </keys>
+        <descriptions>
+            <description language="chinese"></description>
+            <description language="japanese">左胴のこと、または左胴を打つこと。</description>
+            <description language="english">The left side of the do; striking the left side of the do.</description>
+        </descriptions>
+        <resources>
+            <resource type="image" url=""></resource>
+            <resource type="audio"></resource>
+            <resource type="video"></resource>
+        </resources>
+    </entry>
+	<entry>
+        <keys>
+            <key language="chinese"></key>
+            <key language="japanese">刃</key>
+            <key language="english">ha (n.)</key>
+        </keys>
+        <descriptions>
+            <description language="chinese"></description>
+            <description language="japanese">物を切る道具（刀）の、切ったり削ったりするために銳くしてある部分。（付録「日本刀の構造」•参照）</description>
+            <description language="english">The blade;the sharpened edge of a sword or tool used to cut or slice. See APPENDIX: Structure of the Nihonto.</description>
+        </descriptions>
+        <resources>
+            <resource type="image" url=""></resource>
+            <resource type="audio"></resource>
+            <resource type="video"></resource>
+        </resources>
+    </entry>
+	<entry>
+        <keys>
+            <key language="chinese"></key>
+            <key language="japanese">刃引</key>
+            <key language="english">habiki (n.)</key>
+        </keys>
+        <descriptions>
+            <description language="chinese"></description>
+            <description language="japanese">安全のために作られた刃のない刀。形を行うときに使用する日本刀。</description>
+            <description language="english">A sword made without a sharp cutting eage for safety reasons. This type of sword is used when performing Nippon Kendo Kata.</description>
+        </descriptions>
+        <resources>
+            <resource type="image" url=""></resource>
+            <resource type="audio"></resource>
+            <resource type="video"></resource>
+        </resources>
+    </entry>
+	<entry>
+        <keys>
+            <key language="chinese"></key>
+            <key language="japanese">はじく</key>
+            <key language="english">hajiku (v.)</key>
+        </keys>
+        <descriptions>
+            <description language="chinese"></description>
+            <description language="japanese">中段の構えからの攻め合いのときに自分の竹刀で、相手の竹刀を瞬間的にはねのける。</description>
+            <description language="english">To knock the opponent's shinai away with one's own shinai when attacking from the chudan stance.</description>
+        </descriptions>
+        <resources>
+            <resource type="image" url=""></resource>
+            <resource type="audio"></resource>
+            <resource type="video"></resource>
+        </resources>
+    </entry>
+	<entry>
+        <keys>
+            <key language="chinese"></key>
+            <key language="japanese">袴</key>
+            <key language="english">hakama (n.)</key>
+        </keys>
+        <descriptions>
+            <description language="chinese"></description>
+            <description language="japanese">腰から足までを覆うひだのある衣服。現在、剣道で用いている袴はズボンのように左右に分かれている襠高袴（まちたかばかま。馬乗り袴）である。剣道試合•審判規則および細則では袴を用いるよう定めている。（「剣道着」、付録「剣道着と袴の着装法」参照）</description>
+            <description language="english">A pleated piece of clothing which covers the lower-body from waist down to the feet. The type of hakama presently used in kendo is divided into two leg sections like pants, with a high gusset, and was suitable for horse riding (machitaka-bakama). Match regulations require that a hakama be worn. See kendo-gi and APPENDIX: Putting on the Kendo-gi and Hakama.</description>
+        </descriptions>
+        <resources>
+            <resource type="image" url=""></resource>
+            <resource type="audio"></resource>
+            <resource type="video"></resource>
+        </resources>
+    </entry>
+	<entry>
+        <keys>
+            <key language="chinese"></key>
+            <key language="japanese">反動動作</key>
+            <key language="english">hando-dosa (n.)</key>
+        </keys>
+        <descriptions>
+            <description language="chinese"></description>
+            <description language="japanese">一つの運動を始めるとき、目的とする運動の方向とは逆または別の方向への運動。中段の構えから打突するときに瞬間的に剣先を下げてから直ちに振り上げ打突する動作等である。</description>
+            <description language="english">The act of initially moving to the oppsite direction before making the intended move, for example, when striking from chudan-no- kamae this may entail lowering the tip of the shinai for an instant before swinging it up and striking.</description>
+        </descriptions>
+        <resources>
+            <resource type="image" url=""></resource>
+            <resource type="audio"></resource>
+            <resource type="video"></resource>
+        </resources>
+    </entry>
+	<entry>
+        <keys>
+            <key language="chinese"></key>
+            <key language="japanese">反撃</key>
+            <key language="english">hangeki (n.)</key>
+        </keys>
+        <descriptions>
+            <description language="chinese"></description>
+            <description language="japanese">相手の攻撃をかわし、すかさず攻撃に転ずること。</description>
+            <description language="english">A counterattack made immediately after parrying or dodging the opponent’s attack.</description>
+        </descriptions>
+        <resources>
+            <resource type="image" url=""></resource>
+            <resource type="audio"></resource>
+            <resource type="video"></resource>
+        </resources>
+    </entry>
+	<entry>
+        <keys>
+            <key language="chinese"></key>
+            <key language="japanese">半面</key>
+            <key language="english">hanmen (n.)</key>
+        </keys>
+        <descriptions>
+            <description language="chinese"></description>
+            <description language="japanese">左面または右面の部位、およびそこを打つ技。</description>
+            <description language="english">The left or right side of the men striking zone; the waza for striking these zones.</description>
+        </descriptions>
+        <resources>
+            <resource type="image" url=""></resource>
+            <resource type="audio"></resource>
+            <resource type="video"></resource>
+        </resources>
+    </entry>
+	<entry>
+        <keys>
+            <key language="chinese"></key>
+            <key language="japanese">半身</key>
+            <key language="english">hanmi (n.)</key>
+        </keys>
+        <descriptions>
+            <description language="chinese"></description>
+            <description language="japanese">相手に対して体を斜めにする姿勢。右足を前に出して半身になるのを「右半身」といい、左足を前に出して半身になるのを「左半身」という。</description>
+            <description language="english">The stance where one’s body is positioned sideways to the opponent. The hanmi position with the right foot forward is called migi- hanmi and hidari-hanmi, with the left foot forward.</description>
+        </descriptions>
+        <resources>
+            <resource type="image" url=""></resource>
+            <resource type="audio"></resource>
+            <resource type="video"></resource>
+        </resources>
+    </entry>
+	<entry>
+        <keys>
+            <key language="chinese"></key>
+            <key language="japanese">範士</key>
+            <key language="english">hanshi (n.)</key>
+        </keys>
+        <descriptions>
+            <description language="chinese"></description>
+            <description language="japanese">「称号」参照。</description>
+            <description language="english">See shogo.</description>
+        </descriptions>
+        <resources>
+            <resource type="image" url=""></resource>
+            <resource type="audio"></resource>
+            <resource type="video"></resource>
+        </resources>
+    </entry>
+	<entry>
+        <keys>
+            <key language="chinese"></key>
+            <key language="japanese">払い上げる</key>
+            <key language="english">haraiageru (v.)</key>
+        </keys>
+        <descriptions>
+            <description language="chinese"></description>
+            <description language="japanese">相手の竹刀に対し、白分の竹刀で右下から左上方あるいは左下から右上方に瞬間的に力を加えることにより、相手の剣先を中心から外す。また、相手の竹刀に対し、自分の竹刀で右上から左下方あるいは左上から右下方に瞬間的に力を加えることにより、相手の剣先を中心から外すことを「払い落とす」という。</description>
+            <description language="english">To deflect the opponent's shinai and knock its tip off center by instantaneously moving one’s own shinai from the lower right to the upper left, or from the lower left to the upper right. The opposite movement of deflecting the opponent's shinai, and thereby knocking its tip off center by instantaneously moving one’s own shinai from the upper right to the lower left, or from the upper left to the lower right, is called haraiotosu.</description>
+        </descriptions>
+        <resources>
+            <resource type="image" url=""></resource>
+            <resource type="audio"></resource>
+            <resource type="video"></resource>
+        </resources>
+    </entry>
+	<entry>
+        <keys>
+            <key language="chinese"></key>
+            <key language="japanese">払い技</key>
+            <key language="english">harai-waza (n.)</key>
+        </keys>
+        <descriptions>
+            <description language="chinese"></description>
+            <description language="japanese">相手か十分に構えていたり、応じる体勢でいる場合など打ち込む隙が ない時に、相手の竹刀を左または右 に払い上げ、または斜め下に払い落とすなと、相手の構えを崩して打突する技。払い面、払い小手、払い胴、払い突きなどがある。（「払う」、付録「技の分類」参照）</description>
+            <description language="english">A waza which is used against an opponent who is ready in kamae or in a defensive stance and there is no opportunity to attack; it consists or sweeping the opponent's shinai up to the upper left or right, or down to the lower left or right, and breaking the opponent’s stance. Examples include harai-men, harai-kote, harai-do, and harai-tsuki. See harau, APPENDIX: Types of Waza.</description>
+        </descriptions>
+        <resources>
+            <resource type="image" url=""></resource>
+            <resource type="audio"></resource>
+            <resource type="video"></resource>
+        </resources>
+    </entry>
+	<entry>
+        <keys>
+            <key language="chinese"></key>
+            <key language="japanese">払う</key>
+            <key language="english">harau (v.)</key>
+        </keys>
+        <descriptions>
+            <description language="chinese"></description>
+            <description language="japanese">相手の竹刀に対し、自分の竹刀を右下（上）から左上（下）、あるいは左下（上）から右上（下）の方向へ瞬間的に力を加え、相手の剣先を中心から外す。</description>
+            <description language="english">To deflect the tip of the opponent's shinai off center by sweeping it from right to left, or from left to right.</description>
+        </descriptions>
+        <resources>
+            <resource type="image" url=""></resource>
+            <resource type="audio"></resource>
+            <resource type="video"></resource>
+        </resources>
+    </entry>
+	<entry>
+        <keys>
+            <key language="chinese"></key>
+            <key language="japanese">張り</key>
+            <key language="english">hari (n.)</key>
+        </keys>
+        <descriptions>
+            <description language="chinese"></description>
+            <description language="japanese">剣道では、白分の竹刀で相手の竹刀を瞬間的に強くはじくこと。また、姿や気持ちが高揚した状態にあり、常に弓の弦のように張り、瞬時に相手に対応することをも意味する。</description>
+            <description language="english">The act or instantly knocking the opponent’s shinai strongly to the right or the left with one's own shinai. fhe term hari also refers to the condition of one’s form or spirit being uplifted and always stretched as tight as bow-string, able to respond to the opponent instantly.</description>
+        </descriptions>
+        <resources>
+            <resource type="image" url=""></resource>
+            <resource type="audio"></resource>
+            <resource type="video"></resource>
+        </resources>
+    </entry>
+	<entry>
+        <keys>
+            <key language="chinese"></key>
+            <key language="japanese">発声</key>
+            <key language="english">hassei (n.)</key>
+        </keys>
+        <descriptions>
+            <description language="chinese"></description>
+            <description language="japanese">声を出すこと。試合者が対峙して掛け声をかけたり、「コテ」「メン」「ドウ」「ツキ」などと声を出すこと。（「掛け声」参照）</description>
+            <description language="english">The act of vocalizing. Shouting at the opponent when facing each other. The act of shouting kote, men, do or tsuki as the attack is made. See kakegoe.</description>
+        </descriptions>
+        <resources>
+            <resource type="image" url=""></resource>
+            <resource type="audio"></resource>
+            <resource type="video"></resource>
+        </resources>
+    </entry>
+	<entry>
+        <keys>
+            <key language="chinese"></key>
+            <key language="japanese">八相の構え</key>
+            <key language="english">hasso-no-kamae (n.)</key>
+        </keys>
+        <descriptions>
+            <description language="chinese"></description>
+            <description language="japanese">日本剣道形四本目の打太刀の構えは、「諸手左上段の構えから、そのまま右拳を右肩あたりまで下ろした形で、刀をとる位置は、鍔をロの高さにし、ロからほぼ拳一つ離す。構えるときは、左足を踏み出し、刀を中段から大きく諸手左上段に振りかぶる気持ちで構える。刃先は相手に向ける」と説明されている。</description>
+            <description language="english">One of the stances. In the fourth Nippon Kendo Kata, this posture is used by uchidachi and is explained as follows: from the morote- hidari-jodan posture (see jodan-no-kamae), without changing the grip of either hand, the　right fist is lowerea to the right shoulder, Thesword is positioned with the tsuba (sword guard) at mouth height, one fist's distance away from the mouth. When taking this stance, the left foot is shifted forward, and the sword is lifted up with the same feeling as when moving from cnudan to morote-hidari-jodan. The edge of the sword points toward the opponent.</description>
+        </descriptions>
+        <resources>
+            <resource type="image" url=""></resource>
+            <resource type="audio"></resource>
+            <resource type="video"></resource>
+        </resources>
+    </entry>
+	<entry>
+        <keys>
+            <key language="chinese"></key>
+            <key language="japanese">刃筋 </key>
+            <key language="english">hasuji (n.) </key>
+        </keys>
+        <descriptions>
+            <description language="chinese"></description>
+            <description language="japanese">刃先と棟を結んだ線の方向。竹刀や刀を振る方向と刃先の向きが一致することを「刃筋が通る」という。 剣道試合•審判規則および細則において、「刃筋正しく」とは、「竹刀の打突方向と刃部の向きが同一方向である場合とする」と定められている。(「太刀筋」参照）</description>
+            <description language="english">The direction of the line connecting the hasaki (edge of the sword)and the mune (back of the sword). 10 have the direction of the swing of the shinai or sword lined up with the direction of the sword edge is called hasuji-ga-toru. In the Regulations and Subsidiary Rules of Kendo Shiai and Shinpan, hasuji-tadashiku (correct hasuji) is defined as being when the direction of the shinai when striking and the direction of the edge (jinbu) are the same. See tachisuji.</description>
+        </descriptions>
+        <resources>
+            <resource type="image" url=""></resource>
+            <resource type="audio"></resource>
+            <resource type="video"></resource>
+        </resources>
+    </entry>
+	<entry>
+        <keys>
+            <key language="chinese"></key>
+            <key language="japanese">外す</key>
+            <key language="english">hazusu (v.)</key>
+        </keys>
+        <descriptions>
+            <description language="chinese"></description>
+            <description language="japanese">相手が攻めてきたとき、そのねらいを感じとりその目的をそらす。</description>
+            <description language="english">To perceive the opponent's intention and dodge or avert the attack when it comes.</description>
+        </descriptions>
+        <resources>
+            <resource type="image" url=""></resource>
+            <resource type="audio"></resource>
+            <resource type="video"></resource>
+        </resources>
+    </entry>
+	<entry>
+        <keys>
+            <key language="chinese"></key>
+            <key language="japanese">平常心（へいじょうしん）</key>
+            <key language="english">heijoshin (n.)</key>
+        </keys>
+        <descriptions>
+            <description language="chinese"></description>
+            <description language="japanese">物事（事象）の変化に対し、日頃の気持ちで動揺することなく冷静に対応できる磨かれた心の状態。びょうじょうしんともいう。</description>
+            <description language="english">A disciplined state of mind which can respond to changes in a situation in a calm, normal manner, without becoming agitated. Also called byojoshin.</description>
+        </descriptions>
+        <resources>
+            <resource type="image" url=""></resource>
+            <resource type="audio"></resource>
+            <resource type="video"></resource>
+        </resources>
+    </entry>
+	<entry>
+        <keys>
+            <key language="chinese"></key>
+            <key language="japanese">皮革</key>
+            <key language="english">hikaku (n.)</key>
+        </keys>
+        <descriptions>
+            <description language="chinese"></description>
+            <description language="japanese">動物の皮を加工したもの。剣道用具に用いられる素材。</description>
+            <description language="english">Processed animal hide; a material used for kendo equipment.</description>
+        </descriptions>
+        <resources>
+            <resource type="image" url=""></resource>
+            <resource type="audio"></resource>
+            <resource type="video"></resource>
+        </resources>
+    </entry>
+	<entry>
+        <keys>
+            <key language="chinese"></key>
+            <key language="japanese">引き揚げ</key>
+            <key language="english">hikiage (n.)</key>
+        </keys>
+        <descriptions>
+            <description language="chinese"></description>
+            <description language="japanese">打突後相手から遠ざかること。試合において必要以上の余勢や有効を誇示した場合などは、打突後の不適切な行為として有効打突を取り消される場合がある。</description>
+            <description language="english">Hikiage refers to an unacceptable action following a strike, such as demonstrating exaggerated posturing after scoring a point in a match. This can result in the point being rescinded by the shinpan.</description>
+        </descriptions>
+        <resources>
+            <resource type="image" url=""></resource>
+            <resource type="audio"></resource>
+            <resource type="video"></resource>
+        </resources>
+    </entry>
+	<entry>
+        <keys>
+            <key language="chinese"></key>
+            <key language="japanese">引き際（ぎわ）</key>
+            <key language="english">hikigiwa (n.)</key>
+        </keys>
+        <descriptions>
+            <description language="chinese"></description>
+            <description language="japanese">相手が引こうとするところ。打突する機会の代表的な一つである。（「打突の好機」参照）</description>
+            <description language="english">The moment when the opponent is about to retreat. It is a representative example of an opportunity for striking. See datotsu-no-koki.</description>
+        </descriptions>
+        <resources>
+            <resource type="image" url=""></resource>
+            <resource type="audio"></resource>
+            <resource type="video"></resource>
+        </resources>
+    </entry>
+	<entry>
+        <keys>
+            <key language="chinese"></key>
+            <key language="japanese">引き込む</key>
+            <key language="english">hikikomu (v.)</key>
+        </keys>
+        <descriptions>
+            <description language="chinese"></description>
+            <description language="japanese">稽古や試合で自分が打突しやすいように相手を自分の間合に誘い入れる。</description>
+            <description language="english">In keiko or a match, to lure the opponent into a position where the maai is advantageous for one to execute a strike.</description>
+        </descriptions>
+        <resources>
+            <resource type="image" url=""></resource>
+            <resource type="audio"></resource>
+            <resource type="video"></resource>
+        </resources>
+    </entry>
+	<entry>
+        <keys>
+            <key language="chinese"></key>
+            <key language="japanese">引き立て稽古</key>
+            <key language="english">hikitate-geiko (n.)</key>
+        </keys>
+        <descriptions>
+            <description language="chinese"></description>
+            <description language="japanese">指導的立場で稽古するとき、上手に打たせて下位の者に成功の喜びを味わわせたり、打つ機会を教えたりする稽古法。</description>
+            <description language="english">A method of instructional keiko where a higher-ranked player lets a lower-ranked player strike so that the latter can experience the pleasure of success and can learn to recognize opportunities to strike.</description>
+        </descriptions>
+        <resources>
+            <resource type="image" url=""></resource>
+            <resource type="audio"></resource>
+            <resource type="video"></resource>
+        </resources>
+    </entry>
+	<entry>
+        <keys>
+            <key language="chinese"></key>
+            <key language="japanese">引きつける</key>
+            <key language="english">hikitsukeru (v.)</key>
+        </keys>
+        <descriptions>
+            <description language="chinese"></description>
+            <description language="japanese">「引き込む」参照。</description>
+            <description language="english">See hikikomu.</description>
+        </descriptions>
+        <resources>
+            <resource type="image" url=""></resource>
+            <resource type="audio"></resource>
+            <resource type="video"></resource>
+        </resources>
+    </entry>
+	<entry>
+        <keys>
+            <key language="chinese"></key>
+            <key language="japanese">引き分け</key>
+            <key language="english">hikiwake (n.)</key>
+        </keys>
+        <descriptions>
+            <description language="chinese"></description>
+            <description language="japanese">勝負がつかないまま試合が終了すること。</description>
+            <description language="english">The ending of a match in a draw.</description>
+        </descriptions>
+        <resources>
+            <resource type="image" url=""></resource>
+            <resource type="audio"></resource>
+            <resource type="video"></resource>
+        </resources>
+    </entry>
+	<entry>
+        <keys>
+            <key language="chinese"></key>
+            <key language="japanese">引き技</key>
+            <key language="english">hiki-waza (n.)</key>
+        </keys>
+        <descriptions>
+            <description language="chinese"></description>
+            <description language="japanese">鍔ぜり合いや、相手と接近しているとき、積極的に相手を崩して隙を生じさせたり、体当たりなどで相手が崩れて隙ができたところをすかさず引きながら打つ技。引き面、引き小手、引き胴などがある。（付録「技の分類」参照）</description>
+            <description language="english">A waza where the player strikes while retreating in situations, such as tsubazeriai, where one is very close to the opponent. This is done by not missing the suki (unguarded moment) created by forcefully breaking the opponent’s posture or by colliding with the opponent. Examples include hiki-men, hiki-kote, and hiki- do. See APPENDIX: Types of Waza.</description>
+        </descriptions>
+        <resources>
+            <resource type="image" url=""></resource>
+            <resource type="audio"></resource>
+            <resource type="video"></resource>
+        </resources>
+    </entry>
+	<entry>
+        <keys>
+            <key language="chinese"></key>
+            <key language="japanese">開き足</key>
+            <key language="english">hiraki-ashi (n.)</key>
+        </keys>
+        <descriptions>
+            <description language="chinese"></description>
+            <description language="japanese">体をかわしながら相手を打突したり防いだりする場合に用いる足さばき。右に開く場合は右足を右斜め 前に出し、左足を右足にひきつけ相手の方向に向ける。左に開く場合には左足を左斜め前に出し、右足を後方にひきつけ相手の方向に向ける。 （「足さばき」参照）</description>
+            <description language="english">Hiraki-ashi is a type of footwork used to dodge the opponent’s strike. When moving to the right, step forward diagonally to the right with the right foot, and bring the left foot in behind to face the opponent front-on. When moving to the left, step forward diagonally to the left with the left foot, and bring the right foot in behind to face the opponent.</description>
+        </descriptions>
+        <resources>
+            <resource type="image" url=""></resource>
+            <resource type="audio"></resource>
+            <resource type="video"></resource>
+        </resources>
+    </entry>
+	<entry>
+        <keys>
+            <key language="chinese"></key>
+            <key language="japanese">開く</key>
+            <key language="english">hiraku (v.)</key>
+        </keys>
+        <descriptions>
+            <description language="chinese"></description>
+            <description language="japanese">中段の構えから剣先を左右または右斜め下にして構えを解く。相手が中心を攻めあるいは打ってきたとき、体を左右あるいは斜めに移動させて攻撃をかわし有利な状態にもっていく。（「開き足」参照）</description>
+            <description language="english">To open one’s stance by holding the tip of the sword or shinai sideways or diagonally down to the right from chudan-no-kamae. To evade the attack and take an advantageous position by moving sideways or diagonally when the opponent attacks or strikes the center. See hiraki-ashi.</description>
+        </descriptions>
+        <resources>
+            <resource type="image" url=""></resource>
+            <resource type="audio"></resource>
+            <resource type="video"></resource>
+        </resources>
+    </entry>
+	<entry>
+        <keys>
+            <key language="chinese"></key>
+            <key language="japanese">平打ち</key>
+            <key language="english">hira-uchi (n.)</key>
+        </keys>
+        <descriptions>
+            <description language="chinese"></description>
+            <description language="japanese">竹刀の側面で打つこと。竹刀の側面での打ちは刃筋が通っていないので有効打突にはならない。</description>
+            <description language="english">The act of striking with the side of the shinai. This is not a yuko-datotsu (valid strike) because the hasuji is not correct.</description>
+        </descriptions>
+        <resources>
+            <resource type="image" url=""></resource>
+            <resource type="audio"></resource>
+            <resource type="video"></resource>
+        </resources>
+    </entry>
+	<entry>
+        <keys>
+            <key language="chinese"></key>
+            <key language="japanese">一息（ひといき）</key>
+            <key language="english">hitoiki (n.)</key>
+        </keys>
+        <descriptions>
+            <description language="chinese"></description>
+            <description language="japanese">一呼吸（ひとこきゅう）。技をしかける場合、息つぎの瞬間は隙となり、相手に攻め込まれる機会を与えることになるので、隙をみせないためにも一呼吸で行うことが大切である。（「呼吸法」参照）</description>
+            <description language="english">A single breath. The interval between twobreaths is a　vulnerable moment, and it affordsthe opponent an opportunity for　attack. Therefore, it is important to perform waza in a singlebreath so as not to give the opponent an opportunity for attack. See kokyu-ho. </description>
+        </descriptions>
+        <resources>
+            <resource type="image" url=""></resource>
+            <resource type="audio"></resource>
+            <resource type="video"></resource>
+        </resources>
+    </entry>
+	<entry>
+        <keys>
+            <key language="chinese"></key>
+            <key language="japanese">放心</key>
+            <key language="english">hoshin (n.)</key>
+        </keys>
+        <descriptions>
+            <description language="chinese"></description>
+            <description language="japanese">一般的には、他の事物に心を奪われてぼんやりすること。剣道では、執着した気持ちを解き放し、何事にもとらわれないで全てに対応できる心の状態。 </description>
+            <description language="english">In general, to be absentminded because of being preoccupied with other matters. In kendo, it is the state of mind where one is liberated from tenacious thoughts, and can thus respond to any situation without being distracted.</description>
+        </descriptions>
+        <resources>
+            <resource type="image" url=""></resource>
+            <resource type="audio"></resource>
+            <resource type="video"></resource>
+        </resources>
+    </entry>
+	<entry>
+        <keys>
+            <key language="chinese"></key>
+            <key language="japanese">拍子</key>
+            <key language="english">hyoshi (n.)</key>
+        </keys>
+        <descriptions>
+            <description language="chinese"></description>
+            <description language="japanese">竹刀や体さばきなどの動きの流れやリズム。また、相手と呼吸を合わせたり外したりするなど、相手と自分の気持ちのかけあいをいう場合もる。（「呼吸」参照） </description>
+            <description language="english">The rhythm and flow of the movement of the shinai and the body. Also refers to the inter play of feelings between one's self and one's opponent, including the act of breathing in or out of sync. See kokyu.</description>
+        </descriptions>
+        <resources>
+            <resource type="image" url=""></resource>
+            <resource type="audio"></resource>
+            <resource type="video"></resource>
+        </resources>
+    </entry>
+	<entry>
+        <keys>
+            <key language="chinese"></key>
+            <key language="japanese">居合</key>
+            <key language="english">iai (n.)</key>
+        </keys>
+        <descriptions>
+            <description language="chinese"></description>
+            <description language="japanese">日本刀を使用して、居ながらにして合わす日本の伝統的な武道。戦国時代末期（16世紀後半）に林崎重信(はやしざきしげのぶ）が創始したもので、江戸時代に多くの流派が生まれた。1956年（昭和31年）全日本剣道連盟に居合道部が設けられ、1969年（昭和44年）「全日本剣道連盟居合」が制定された。「居合道」ともいう。 </description>
+            <description language="english">From a seated or standing position, the swordman draws the sword from its scabbarc and engages the enemy. It was founded by Shigenobu Hayashizaki in the latter half of the 16th century as Japan neared the end of an era of civil war known as the Sengoku period Many schools of iai were created in the Edo period (1603-1868). In 1956 (Showa 31) the iaido division was set up in the All Japan Kendo Federation, and in 1969 (Showa 44). All Japan Kendo Federation Iai Kata were establisned. Also called iaido.</description>
+        </descriptions>
+        <resources>
+            <resource type="image" url=""></resource>
+            <resource type="audio"></resource>
+            <resource type="video"></resource>
+        </resources>
+    </entry>
+	<entry>
+        <keys>
+            <key language="chinese"></key>
+            <key language="japanese">—拍子</key>
+            <key language="english">ichi-byoshi (n.)</key>
+        </keys>
+        <descriptions>
+            <description language="chinese"></description>
+            <description language="japanese">竹刀操作と体さばきを一致させ、それが一呼吸（ひとこきゆう）で行われる打突動作。</description>
+            <description language="english">Striking movement done in one breath with the shinai and body moving in unison.</description>
+        </descriptions>
+        <resources>
+            <resource type="image" url=""></resource>
+            <resource type="audio"></resource>
+            <resource type="video"></resource>
+        </resources>
+    </entry>
+	<entry>
+        <keys>
+            <key language="chinese"></key>
+            <key language="japanese">一眼二足三胆四力</key>
+            <key language="english">ichigan-nisoku-santan-shiriki (n.)</key>
+        </keys>
+        <descriptions>
+            <description language="chinese"></description>
+            <description language="japanese">剣道を修行する上で重要な要素を、その重要度に応じて示したことば。第一に眼の働き、第二に足さばき、第三に何事にも動じない強い気持ち、そして第四に思い切った技およびそれを生み出す体力の発揮が重要であるとされている。（「足さばき」「目付け」参照）</description>
+            <description language="english">A phrase which presents four elements essential for kendo training, in order of their importance. The first of these elements is the functioning of the eyes, the second is footwork, the third is a strong mind not upset by anything, and the fourth is bold waza and the physical strength to execute such waza. See ashi-sabaki, metsuke.</description>
+        </descriptions>
+        <resources>
+            <resource type="image" url=""></resource>
+            <resource type="audio"></resource>
+            <resource type="video"></resource>
+        </resources>
+    </entry>
+	<entry>
+        <keys>
+            <key language="chinese"></key>
+            <key language="japanese">一本</key>
+            <key language="english">ippon (n.)</key>
+        </keys>
+        <descriptions>
+            <description language="chinese"></description>
+            <description language="japanese">剣道において見事に技が決まること。気剣体一致した有効打突。（「気剣体一致」「有効打突」参照）</description>
+            <description language="english">Successfully scoring a waza in kendo. The act of striking with ki-ken-tai-itchi. See ki-ken-tai- itchi and yuko-datotsu.</description>
+        </descriptions>
+        <resources>
+            <resource type="image" url=""></resource>
+            <resource type="audio"></resource>
+            <resource type="video"></resource>
+        </resources>
+    </entry>
+	<entry>
+        <keys>
+            <key language="chinese"></key>
+            <key language="japanese">一本打ち</key>
+            <key language="english">ippon-uchi (n.)</key>
+        </keys>
+        <descriptions>
+            <description language="chinese"></description>
+            <description language="japanese">最初の一打ちを無心で、気剣体一致した打突を全力で打つこと。 (「無心」参照）</description>
+            <description language="english">Making the first strike with all one's strength, with ki-ken-tai-itchi, and without conscious thought. See mushin.</description>
+        </descriptions>
+        <resources>
+            <resource type="image" url=""></resource>
+            <resource type="audio"></resource>
+            <resource type="video"></resource>
+        </resources>
+    </entry>
+	<entry>
+        <keys>
+            <key language="chinese"></key>
+            <key language="japanese">入り身</key>
+            <key language="english">irimi (n.)	</key>
+        </keys>
+        <descriptions>
+            <description language="chinese"></description>
+            <description language="japanese">半身に構え、相手の手元にすばやくつけ入ること。日本剣道形小太刀の形の仕太刀は、三本ともこの入り身になることが重視されている。</description>
+            <description language="english">The act of taking a position sideways to the opponent and quickly penetrating close to the opponent's hands. Taking this irimi stance is regarded as important in all three shidachi moves in the Nippon Kendo Kata for the ko- dachi.</description>
+        </descriptions>
+        <resources>
+            <resource type="image" url=""></resource>
+            <resource type="audio"></resource>
+            <resource type="video"></resource>
+        </resources>
+    </entry>
+	<entry>
+        <keys>
+            <key language="chinese"></key>
+            <key language="japanese">色</key>
+            <key language="english">iro (n.)</key>
+        </keys>
+        <descriptions>
+            <description language="chinese"></description>
+            <description language="japanese">その人の心の状態が具体的に外に表れた兆し。</description>
+            <description language="english">A sign, indication, or movement that shows the person’s mental condition.</description>
+        </descriptions>
+        <resources>
+            <resource type="image" url=""></resource>
+            <resource type="audio"></resource>
+            <resource type="video"></resource>
+        </resources>
+    </entry>
+	<entry>
+        <keys>
+            <key language="chinese"></key>
+            <key language="japanese">一足一刀の間合</key>
+            <key language="english">issoku-itto-no-maai (n.)</key>
+        </keys>
+        <descriptions>
+            <description language="chinese"></description>
+            <description language="japanese">剣道の試合や稽古における相手と自分との間にできる距離。一歩踏み込めば打て、一歩退けば相手の打突を外せる距離。剣道における基本的な間合といわれている。（「近間」「間合」「遠間」参照）</description>
+            <description language="english">The distance between players and their opponents in kendo matches and keiko. This is the distance which enables a player to strike the opponent by taking one step torward, and to evade the opponent’s strike by taking one step backward. The fundamental spatial distance in kendo. See maai, chikama, toma.</description>
+        </descriptions>
+        <resources>
+            <resource type="image" url=""></resource>
+            <resource type="audio"></resource>
+            <resource type="video"></resource>
+        </resources>
+    </entry>
+	<entry>
+        <keys>
+            <key language="chinese"></key>
+            <key language="japanese">居つき</key>
+            <key language="english">itsuki (v.)</key>
+        </keys>
+        <descriptions>
+            <description language="chinese"></description>
+            <description language="japanese">「居つく」参照。</description>
+            <description language="english">See itsuku.</description>
+        </descriptions>
+        <resources>
+            <resource type="image" url=""></resource>
+            <resource type="audio"></resource>
+            <resource type="video"></resource>
+        </resources>
+    </entry>
+	<entry>
+        <keys>
+            <key language="chinese"></key>
+            <key language="japanese">居つく</key>
+            <key language="english">itsuku (v.)</key>
+        </keys>
+        <descriptions>
+            <description language="chinese"></description>
+            <description language="japanese">ある一つのことに心が捉われて相手の動きや隙を見つけることができず、十分な力を発揮できない。相手に動きや攻め、守りで主導権を握られ思うようにならない。一瞬気を抜いたため自分の動きが制約されて動きがとまってしまう。</description>
+            <description language="english">To be unable to show one’s full abilities because of being preoccupied with one thing and therefore unable to perceive the movement and suki of the opponent. To be in a helpless situation because the opponent has taken the initiative in movement, offence, and defense. Also, to have one’s movement limited or stopped as a result of being off-guard for an instant.</description>
+        </descriptions>
+        <resources>
+            <resource type="image" url=""></resource>
+            <resource type="audio"></resource>
+            <resource type="video"></resource>
+        </resources>
+    </entry>
+	<entry>
+        <keys>
+            <key language="chinese"></key>
+            <key language="japanese">五つの構え</key>
+            <key language="english">itsutsu-no-kamae (n.)</key>
+        </keys>
+        <descriptions>
+            <description language="chinese"></description>
+            <description language="japanese">上段の構え•中段の構え•下段の構え•八相の構え•脇構えの五つの構え。</description>
+            <description language="english">The five postures: jodan-no-kamae, chudan-no-kamae, gedan-no-kamae, hasso-no-kamae, and wakigamae.</description>
+        </descriptions>
+        <resources>
+            <resource type="image" url=""></resource>
+            <resource type="audio"></resource>
+            <resource type="video"></resource>
+        </resources>
+    </entry>
+	<entry>
+        <keys>
+            <key language="chinese"></key>
+            <key language="japanese">地稽古</key>
+            <key language="english">ji-geiko (n.)</key>
+        </keys>
+        <descriptions>
+            <description language="chinese"></description>
+            <description language="japanese">技を練り、気を養い、欠点を矯正する工夫と努力をして地力をつける総合的な稽古法。（「互格稽古」「稽古法」參照）</description>
+            <description language="english">The general method of doing keiko in which practitioners polish their techniques, disciplines their minds, and make efforts to overcome their weak points. See gokaku-geiko, keiko-ho.</description>
+        </descriptions>
+        <resources>
+            <resource type="image" url=""></resource>
+            <resource type="audio"></resource>
+            <resource type="video"></resource>
+        </resources>
+    </entry>
+	<entry>
+        <keys>
+            <key language="chinese"></key>
+            <key language="japanese">刃部</key>
+            <key language="english">jin-bu (n.)</key>
+        </keys>
+        <descriptions>
+            <description language="chinese"></description>
+            <description language="japanese">刀の物を切ることのできる部分。やいば。竹刀においては弦の反対側。</description>
+            <description language="english">The blade edge: the part of the sword that cuts. On a shinai, the side opposite the tsuru.</description>
+        </descriptions>
+        <resources>
+            <resource type="image" url=""></resource>
+            <resource type="audio"></resource>
+            <resource type="video"></resource>
+        </resources>
+    </entry>
+	<entry>
+        <keys>
+            <key language="chinese"></key>
+            <key language="japanese">人格</key>
+            <key language="english">jinkaku (n.)</key>
+        </keys>
+        <descriptions>
+            <description language="chinese"></description>
+            <description language="japanese">人柄。剣道を通して身に付けたその人の品位。</description>
+            <description language="english">One’s personality. One’s character acquired through kendo.</description>
+        </descriptions>
+        <resources>
+            <resource type="image" url=""></resource>
+            <resource type="audio"></resource>
+            <resource type="video"></resource>
+        </resources>
+    </entry>
+	<entry>
+        <keys>
+            <key language="chinese"></key>
+            <key language="japanese">事理（じり）一致</key>
+            <key language="english">jiri-itchi (n.)</key>
+        </keys>
+        <descriptions>
+            <description language="chinese"></description>
+            <description language="japanese">事は技·技法、理は理法（心法を含む）·理合のこと。技と理法を一体化させるよう修錬していくことが大切であるという教え。</description>
+            <description language="english">Ji means the techniques (waza) or technicalmethodology, whereas ri refers to theory (andpsychological aspects) or principles. The ideathat it is important to train in a way to unify technique and theory. The aim of this precept is a search for truth through a realization of the functions of mind and body through training in techniques. </description>
+        </descriptions>
+        <resources>
+            <resource type="image" url=""></resource>
+            <resource type="audio"></resource>
+            <resource type="video"></resource>
+        </resources>
+    </entry>
+	<entry>
+        <keys>
+            <key language="chinese"></key>
+            <key language="japanese">上段の構え </key>
+            <key language="english">jodan-no-kamae (n.)</key>
+        </keys>
+        <descriptions>
+            <description language="chinese"></description>
+            <description language="japanese">竹刀を頭上に保持した構え。剣道の構えの中では最も攻撃的な構え。両手（左手で柄頭を握り、右手で鍔元を握る）で竹刀を持ち左足を前に出した構えを諸手左上段の構え（左上段の構え）といい、同じく両手で竹刀を持ち右足を前に出した構えを諸手右上段の構え（右上段の構え）という。左片手で竹刀を握り左足を前に出した構えを左片手上段の構え、右片手で竹刀を握り右足を前に出した構えを右片手上段の構えという。 </description>
+            <description language="english">The posture where the shinai is held above thehead. The most aggressive kamae among thekendo stances. The stance in which the shinaiis held with both hands (the left hand grips thetsukagashira, and the right hand grips justbelow the tsuba) with the left foot is forward iscalled morote-hidari-jodan-no-kamae (hidari-jodan). The stance where the shinai is held withboth hands in the same way, and the right footis forward is called morote-migi-jodan-no-kamae (migi-jodan). The stance in which onlythe left hand holds the shinai and the left foot is forward is called hidari-katate-jodan-no- kamae. When only the right hand holds the shinai and the right foot is forward, this is called migi-katate-jodan-no-kamae. </description>
+        </descriptions>
+        <resources>
+            <resource type="image" url=""></resource>
+            <resource type="audio"></resource>
+            <resource type="video"></resource>
+        </resources>
+    </entry>
+	<entry>
+        <keys>
+            <key language="chinese"></key>
+            <key language="japanese">上段技</key>
+            <key language="english">jodan-waza (n.)</key>
+        </keys>
+        <descriptions>
+            <description language="chinese"></description>
+            <description language="japanese">上段の構えから両手または片手で打つ技の総称。上段からの面や小手などがある。（付録「技の分類」参照）</description>
+            <description language="english">The general term for waza executed with one or both hands from jodan-no-kamae. Examples include: men from jodan, kote from jodan. See APPENDIX: Types of Waza.</description>
+        </descriptions>
+        <resources>
+            <resource type="image" url=""></resource>
+            <resource type="audio"></resource>
+            <resource type="video"></resource>
+        </resources>
+    </entry>
+	<entry>
+        <keys>
+            <key language="chinese"></key>
+            <key language="japanese">上下振り</key>
+            <key language="english">joge-buri (n.)</key>
+        </keys>
+        <descriptions>
+            <description language="chinese"></description>
+            <description language="japanese">中段の構えから「手の内」を変えないようにして、竹刀をできるだけ大きく振りかぶり、頭上で止めることなく、左拳を下腹部の前まで引きつけて充分に振り下ろす動作。振り下ろしたときの剣先の位置は仮想の相手の膝頭の高さぐらいにする。「上下素振り」ともいう。</description>
+            <description language="english">The movement (from the chudan stance) of swinging the shinai up above the head (without changing the grip) in as large an arc as possible, and then without stopping, swinging it down by pulling the left fist in toward the lower part of the stomach. At the end of the downward swing, the tip of the shinai should be at the level of the imaginary opponent’s knee. Also called joge-suburi.</description>
+        </descriptions>
+        <resources>
+            <resource type="image" url=""></resource>
+            <resource type="audio"></resource>
+            <resource type="video"></resource>
+        </resources>
+    </entry>
+	<entry>
+        <keys>
+            <key language="chinese"></key>
+            <key language="japanese">上席</key>
+            <key language="english">jo-seki (n.)</key>
+        </keys>
+        <descriptions>
+            <description language="chinese"></description>
+            <description language="japanese">自分よりも立場や年齢、技能などが高い人が位置する場所。道場で師範の座す場所。</description>
+            <description language="english">The place where those who are higher in rank, older, or more skilled are positioned. The place where a master or an instructor sits in a dojo.</description>
+        </descriptions>
+        <resources>
+            <resource type="image" url=""></resource>
+            <resource type="audio"></resource>
+            <resource type="video"></resource>
+        </resources>
+    </entry>
+	<entry>
+        <keys>
+            <key language="chinese"></key>
+            <key language="japanese">上体前面</key>
+            <key language="english">jotai-zenmen (n.)</key>
+        </keys>
+        <descriptions>
+            <description language="chinese"></description>
+            <description language="japanese">胸部前面のこと。打たれた者の剣先が相手の上体前面に付いてその気勢や姿勢が充実していると判断した場合は有効打突としない。</description>
+            <description language="english">The front side of the chest. If a player who is struck keeps the tip of his or her shinai on the opponents jotai-zenmen with strong spirit and correct posture when the strike is made, it will not be a yuko-datotsu (valid strike).</description>
+        </descriptions>
+        <resources>
+            <resource type="image" url=""></resource>
+            <resource type="audio"></resource>
+            <resource type="video"></resource>
+        </resources>
+    </entry>
+	<entry>
+        <keys>
+            <key language="chinese"></key>
+            <key language="japanese">熟練者</key>
+            <key language="english">jukurensha (n.)</key>
+        </keys>
+        <descriptions>
+            <description language="chinese"></description>
+            <description language="japanese">長年の稽古の積み重ねの結果、高度な技を身につけた人。</description>
+            <description language="english">A person who is highly skilled as a result of many years of keiko.</description>
+        </descriptions>
+        <resources>
+            <resource type="image" url=""></resource>
+            <resource type="audio"></resource>
+            <resource type="video"></resource>
+        </resources>
+    </entry>
+	<entry>
+        <keys>
+            <key language="chinese"></key>
+            <key language="japanese">かぶる</key>
+            <key language="english">kaburu (v.)</key>
+        </keys>
+        <descriptions>
+            <description language="chinese"></description>
+            <description language="japanese">面を着ける。手ぬぐいで頭を覆う。</description>
+            <description language="english">To put on a men. To cover one's head with a tenugui (towel).</description>
+        </descriptions>
+        <resources>
+            <resource type="image" url=""></resource>
+            <resource type="audio"></resource>
+            <resource type="video"></resource>
+        </resources>
+    </entry>
+	<entry>
+        <keys>
+            <key language="chinese"></key>
+            <key language="japanese">返し技</key>
+            <key language="english">kaeshi-waza (n.)</key>
+        </keys>
+        <descriptions>
+            <description language="chinese"></description>
+            <description language="japanese">相手の打突に対して身体をさばきながら、自分の竹刀で相手の竹刀に 応じ、応じた側の反対側の部位を、手を返して打つ技。面返し面、面返し小手、面返し胴、小手返し面、小手返し小手、胴返し面などがある。(付録「技の分類」参照）</description>
+            <description language="english">A type of waza where, in response to the opponent's strike, one parries the opponent's shinai with one's own while moving, and then turning the hands over executes a counterstrike to a zone from the opposite side used in the parry. Examples include: men-kaeshi-men, men-kaeshi-kote, men-kaeshi-do, kote-kaeshi-men, kote-kaeshi- kote, and do-kaeshi-men. See APPENDIX: Types of Waza.</description>
+        </descriptions>
+        <resources>
+            <resource type="image" url=""></resource>
+            <resource type="audio"></resource>
+            <resource type="video"></resource>
+        </resources>
+    </entry>
+	<entry>
+        <keys>
+            <key language="chinese"></key>
+            <key language="japanese">返す</key>
+            <key language="english">kaesu (v.)</key>
+        </keys>
+        <descriptions>
+            <description language="chinese"></description>
+            <description language="japanese">方向を反対側にかえる。剣道では竹刀を表から裏へ、または裏から表へ操作する。</description>
+            <description language="english">To change the direction to the opposite side. In kendo, to manipulate a shinai from the omote side to the ura side and vice versa.</description>
+        </descriptions>
+        <resources>
+            <resource type="image" url=""></resource>
+            <resource type="audio"></resource>
+            <resource type="video"></resource>
+        </resources>
+    </entry>
+	<entry>
+        <keys>
+            <key language="chinese"></key>
+            <key language="japanese">鉤足（かぎあし）</key>
+            <key language="english">kagi-ashi (n.)</key>
+        </keys>
+        <descriptions>
+            <description language="chinese"></description>
+            <description language="japanese">「撞木足（しゅもくあし)」参照。</description>
+            <description language="english">See shumoku-ashi.</description>
+        </descriptions>
+        <resources>
+            <resource type="image" url=""></resource>
+            <resource type="audio"></resource>
+            <resource type="video"></resource>
+        </resources>
+    </entry>
+	<entry>
+        <keys>
+            <key language="chinese"></key>
+            <key language="japanese">掛かり稽古</key>
+            <key language="english">kakari-geiko (n.)</key>
+        </keys>
+        <descriptions>
+            <description language="chinese"></description>
+            <description language="japanese">兀立ちに対して、打たれるかわされることなど一切考えずに、習得したすベての技を使って、短時間に気力を充実させ体力の続く限り全身を使って打ち込む稽古法。</description>
+            <description language="english">The keiko method in which for a short period the trainees practice striking the motodachi (person acting as instructor) with all their might, using all the waza they has learned, and without concern for being struck or dodged.</description>
+        </descriptions>
+        <resources>
+            <resource type="image" url=""></resource>
+            <resource type="audio"></resource>
+            <resource type="video"></resource>
+        </resources>
+    </entry>
+	<entry>
+        <keys>
+            <key language="chinese"></key>
+            <key language="japanese">懸かる</key>
+            <key language="english">kakaru (v.)</key>
+        </keys>
+        <descriptions>
+            <description language="chinese"></description>
+            <description language="japanese">技術の向上を目指して下位の者が上位の者に対して積極的に向かっていく。</description>
+            <description language="english">For lower-ranked players to aggressively attack higher-ranked players in order to improve their technique.</description>
+        </descriptions>
+        <resources>
+            <resource type="image" url=""></resource>
+            <resource type="audio"></resource>
+            <resource type="video"></resource>
+        </resources>
+    </entry>
+	<entry>
+        <keys>
+            <key language="chinese"></key>
+            <key language="japanese">掛け声</key>
+            <key language="english">kakegoe (n.)</key>
+        </keys>
+        <descriptions>
+            <description language="chinese"></description>
+            <description language="japanese">心に油断がなく気力の充実した状態が自然に声として外にあらわれたもの。自分を奮い立たせる声、相手を威嚇する声、勝ちを知らせる声などがある。</description>
+            <description language="english">A natural vocalization which shows that one is full of spirit and on guard. kakegoe can serve to encourage one's self, to intimidate the opponent, and to announce victory.</description>
+        </descriptions>
+        <resources>
+            <resource type="image" url=""></resource>
+            <resource type="audio"></resource>
+            <resource type="video"></resource>
+        </resources>
+    </entry>
+	<entry>
+        <keys>
+            <key language="chinese"></key>
+            <key language="japanese">駆け引き</key>
+            <key language="english">kakehiki (n.)</key>
+        </keys>
+        <descriptions>
+            <description language="chinese"></description>
+            <description language="japanese">相手の動きを読んで自分が有利になるような状況を作るために心や技で対応すること。</description>
+            <description language="english">Tactics. The act of reading the opponent’s movement and responding with the mind or techniques in order to create an advantageous situation.</description>
+        </descriptions>
+        <resources>
+            <resource type="image" url=""></resource>
+            <resource type="audio"></resource>
+            <resource type="video"></resource>
+        </resources>
+    </entry>
+	<entry>
+        <keys>
+            <key language="chinese"></key>
+            <key language="japanese">格技</key>
+            <key language="english">kakugi (n.)</key>
+        </keys>
+        <descriptions>
+            <description language="chinese"></description>
+            <description language="japanese">1958年（昭和33年）、中学校学習指導要領の改訂で、武道という呼称が禁じられていたので、柔道、剣道、相撲を総合する運動領域の名称として使用された。1989年（平成元年）、学習指導要領の改訂に伴い 「格技」は「武道」という名称に変更された。</description>
+            <description language="english">With reforms made to the National Curriculum Guidelines for Junior High Schools in 1958 (Showa 33), the term "budd" was prohibited and "kakugi" (combat sports) was used instead to denote martial arts such as judo, sumo, and kendo. When the National Curriculum Guidelines were reformed again in 1989 (Heisei 1), kakugi was replaced with budo.</description>
+        </descriptions>
+        <resources>
+            <resource type="image" url=""></resource>
+            <resource type="audio"></resource>
+            <resource type="video"></resource>
+        </resources>
+    </entry>
+	<entry>
+        <keys>
+            <key language="chinese"></key>
+            <key language="japanese">構え</key>
+            <key language="english">kamae (n.)</key>
+        </keys>
+        <descriptions>
+            <description language="chinese"></description>
+            <description language="japanese">相手の様々な状況の変化に対して即応できるよう姿勢や態度を整えている状態。（「五つの構え」「気構え」 「心構え」「身構え」参照）</description>
+            <description language="english">A posture or stance. The state of having prepared one’s stance or attitude so as to be able to respond to various changes in the opponent’s situation. See itsutsu-no-kamae, kigamae, kokoro-gamae, migamae.</description>
+        </descriptions>
+        <resources>
+            <resource type="image" url=""></resource>
+            <resource type="audio"></resource>
+            <resource type="video"></resource>
+        </resources>
+    </entry>
+	<entry>
+        <keys>
+            <key language="chinese"></key>
+            <key language="japanese">上座</key>
+            <key language="english">kamiza (n.)</key>
+        </keys>
+        <descriptions>
+            <description language="chinese"></description>
+            <description language="japanese">「上席」参照。</description>
+            <description language="english">See joseki.</description>
+        </descriptions>
+        <resources>
+            <resource type="image" url=""></resource>
+            <resource type="audio"></resource>
+            <resource type="video"></resource>
+        </resources>
+    </entry>
+	<entry>
+        <keys>
+            <key language="chinese"></key>
+            <key language="japanese">勘</key>
+            <key language="english">kan (n.)</key>
+        </keys>
+        <descriptions>
+            <description language="chinese"></description>
+            <description language="japanese">物事の真相を直ちに感知する能力。</description>
+            <description language="english">A hunch; intuition; the ability to sense the true circumstances immediately.</description>
+        </descriptions>
+        <resources>
+            <resource type="image" url=""></resource>
+            <resource type="audio"></resource>
+            <resource type="video"></resource>
+        </resources>
+    </entry>
+</dictionary>
