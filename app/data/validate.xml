@@ -1,14 +1,17 @@
 <validates>
 	<validate>
-		<userid>huangys</userid>
-		<wxuserid></wxuserid>
+		<userid>huangyunsong</userid>
 		<endvalidate>20201212</endvalidate>
 		<description><![CDATA[]]></description>
 	</validate>
 	<validate>
 		<userid>huhoucun</userid>
-		<wxuserid></wxuserid>
 		<endvalidate>20181212</endvalidate>
+		<description><![CDATA[]]></description>
+	</validate>
+	<validate>
+		<userid>huzhenghao</userid>
+		<endvalidate>119</endvalidate>
 		<description><![CDATA[]]></description>
 	</validate>
 </validates>
