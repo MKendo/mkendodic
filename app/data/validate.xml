@@ -1,0 +1,14 @@
+<validates>
+	<validate>
+		<userid>huangys</userid>
+		<wxuserid></wxuserid>
+		<endvalidate>20201212</endvalidate>
+		<description><![CDATA[]]></description>
+	</validate>
+	<validate>
+		<userid>huhoucun</userid>
+		<wxuserid></wxuserid>
+		<endvalidate>20181212</endvalidate>
+		<description><![CDATA[]]></description>
+	</validate>
+</validates>

@@ -9,6 +9,8 @@ GET        /dailyword             controllers.DailyWordController.search()
 
 GET        /dailyword/show        controllers.DailyWordController.show()
 
+GET        /user/validate/:userid  controllers.SearchValidateController.searchVallidate(userid:String)
+
 # Map static resources from the /public folder to the /assets URL path
 GET        /assets/*file          controllers.Assets.at(path="/public", file)
 
