@@ -32,9 +32,10 @@ class CheckSignatureController @Inject()(cc: ControllerComponents) extends Abstr
       if(signature.equals(hashcode)){
         Logger.debug("signature.equals(hashcode). 正确返回")
         Ok(echostr+"")
+      }else {
+        Logger.debug("错误返回")
+        Ok("")
       }
-      Logger.debug("错误返回")
-      Ok("")
   }
 
 //  object SHA1
