@@ -38,20 +38,4 @@ class CheckSignatureController @Inject()(cc: ControllerComponents) extends Abstr
       }
   }
 
-//  object SHA1
-//  {
-//    def digest_bytes(bytes: Array[Byte]): String =
-//    {
-//      val result = new StringBuilder
-//      for (b <- MessageDigest.getInstance("SHA").digest(bytes)) {
-//        val i = b.asInstanceOf[Int] & 0xFF
-//        if (i < 16) result += '0'
-//        result ++= Integer.toHexString(i)
-//      }
-//      result.toString
-//    }
-//
-//    def digest(s: String): String = digest_bytes(Standard_System.string_bytes(s))
-//  }
-
 }
