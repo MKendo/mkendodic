@@ -30,8 +30,10 @@ class CheckSignatureController @Inject()(cc: ControllerComponents) extends Abstr
       Logger.debug(s"hashcode = $hashcode")
 
       if(signature.equals(hashcode)){
+        Logger.debug("signature.equals(hashcode). 正确返回")
         Ok(echostr+"")
       }
+      Logger.debug("错误返回")
       Ok("")
   }
 
