@@ -1,4 +1,4 @@
-package controllers.wx;
+package controllers.wx.tools;
 
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
