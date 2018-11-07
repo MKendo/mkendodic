@@ -9,8 +9,12 @@ GET        /dailyword             controllers.DailyWordController.search()
 
 GET        /dailyword/show        controllers.DailyWordController.show()
 
+# 剑道词条（可翻译为中文）
+GET        /kendoentry/tochinese  controllers.KendoEntryController.show()
+
 # 会员管理
 GET        /user/validate/:userid  controllers.SearchValidateController.searchVallidate(userid:String)
+GET        /user/validateupdate  controllers.UpdateValidateController.searchVallidate()
 
 # 微信接口
 #GET        /wx/mkserver              controllers.wx.CheckSignatureController.checksg() # 签名认证

@@ -1,0 +1,32 @@
+<pricetype>
+    <item>
+        <id>PTAY3000</id>
+        <type>YEAR</type>
+        <price>3000</price>
+        <description>年费3000 2015年之前加入的剑友，前辈</description>
+    </item>
+    <item>
+        <id>PTAY3500</id>
+        <type>YEAR</type>
+        <price>3500</price>
+        <description>年费3500 2015年加入的剑友</description>
+    </item>
+    <item>
+        <id>PTAY4500</id>
+        <type>YEAR</type>
+        <price>4500</price>
+        <description>年费4500 2016年加入的剑友</description>
+    </item>
+    <item>
+        <id>PTAY6000</id>
+        <type>YEAR</type>
+        <price>6000</price>
+        <description>年费6000 2017和2018年加入的剑友</description>
+    </item>
+    <item>
+        <id>PTHY3500</id>
+        <type>HALFYEAR</type>
+        <price>3500</price>
+        <description>半年3500 2017和2018年加入的剑友</description>
+    </item>
+</pricetype>

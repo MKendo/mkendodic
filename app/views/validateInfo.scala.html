@@ -1,0 +1,17 @@
+@(name: String, validate: String , descriptions: Array[String])
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>明剑馆会员有效期</title>
+</head>
+<body>
+  @name 的会员有效期至：<b>@validate</b><hr/>
+历史缴费信息如下：<br/>
+<ul>
+@for( item <- descriptions){
+  <li>@item</li>}
+</ul>
+
+</body>
+</html>

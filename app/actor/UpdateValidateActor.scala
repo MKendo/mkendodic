@@ -1,5 +1,6 @@
 package actor
 
+import actor.UpdateValidateActor.{UpdateValidate, getClass}
 import actor.SearchValidateActor.SearchValidate
 import akka.actor.{Actor, Props}
 import play.api.Logger
@@ -7,25 +8,27 @@ import play.api.Logger
 import scala.xml.NodeSeq
 
 /**
-  * Created by momos_000 on 2017/9/4.
+  * Created by yunsong on 2018/2/28.
   */
 
-object SearchValidateActor {
+object UpdateValidateActor {
   def props = Props[SearchValidateActor]
-  case class SearchValidate(userid: String)
+  case class UpdateValidate(userid: String, endValidate: String, description: String)
 }
 
-class SearchValidateActor extends Actor {
+class UpdateValidateActor extends Actor {
   private val logger = Logger(getClass)
   def receive = {
-    case SearchValidate(userid: String) => {
+    case UpdateValidate(userid: String, endValidate: String, description: String) => {
       val validateXml = {
         scala.xml.XML.loadFile("app/data/validate.xml")
       }
 
       val validateNode: NodeSeq = (validateXml \\ "validate").filter(_.\\("userid").text.equals(userid))
       logger.info("validateNode = "+validateNode.toString())
-      sender() ! validateNode
+      //TODO: XML不能修改先结构化再进行修改后save
+
+      sender() ! validateNode //TODO:这里返回最新的节点信息
     }
   }
 }

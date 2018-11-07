@@ -1,0 +1,43 @@
+@import model.ValidateDescription
+@(name: String, validate: String , descriptions: Array[String])
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>明剑馆会员有效期</title>
+    <script>
+            function showUpdateForm(){
+                var userid = document.getElementById("searchUserid").innerHTML;
+                document.getElementById("typediv1").style.visibility="visible";
+            }
+            function inputUpdateUserid(){
+                document.getElementById("uupdateUserid").innerHTML = document.getElementById("searchUserid").innerHTML
+            }
+    </script>
+</head>
+<body>
+    @helper.form(action = routes.UpdateValidateController.searchVallidate()) {
+        客户ID：<input id="searchUserid" type="text" name="userid" placeholder="姓名全拼" />
+        <button type="submit" id="search" onclick="inputUpdateUserid()">搜索</button>
+    }
+    <br />
+    <br/>
+    <br/>
+    @name 的会员有效期至：<b>@validate</b><button type="button" id="search" onclick="showUpdateForm()">修改</button>
+    <div id="updateForm" style="display: none">
+    @helper.form(action = routes.UpdateValidateController.searchVallidate()) {
+        新的有效期：<input type="text" name="validate" value="@validate"/><br/>
+        说明：<input type="text" name="description" placeholder="本次缴费情况说明" /><br/>
+        <input id="uupdateUserid" type="text" name="userid"/><button type="submit" id="moodify">提交</button><br/>
+    }
+    </div>
+
+<hr/>
+历史缴费信息如下：<br/>
+<ul>
+@for( item <- descriptions){false
+  <li>@item</li>}
+</ul>
+
+</body>
+</html>

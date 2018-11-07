@@ -1,0 +1,47 @@
+@(cnKey: String, cnDes: String, jpKey: String, jpDes: String,
+        enKey: String, enDes: String)(/*中文翻译是否已有最终版*/isChineseDone: Boolean)(/*所有的中文翻译*/chineseEntris: List[String])
+<!doctype html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>剑道辞典</title>
+  </head>
+
+  <body>
+    <h2>Good Good Study！Day day up！</h2>
+
+@if(jpKey.trim() != "") {
+  <ul>
+    <li>【日本語】</li>
+    <li><b>@jpKey</b></li>
+    <li>@jpDes</li>
+  </ul>
+}
+
+@if(enKey.trim() != "") {
+  <ul>
+    <li>【English】</li>
+    <li><b>@enKey</b></li>
+    <li>@enDes</li>
+  </ul>
+}
+
+@if(cnKey.trim() == "") {
+  <ul>
+    <li>【中文】</li>
+    <li><a href="http://www.mkendo.com">我来翻译</a></li>
+  </ul>
+}else {
+  <ul>
+    <li>【中文】</li>
+    <li><b>@cnKey</b></li>
+    <li>@cnDes</li>
+    @if(!isChineseDone){
+      <li><a href="http://www.mkendo.com">我有更好的翻译</a></li>
+    }
+  </ul>
+}
+
+  </body>
+</html>

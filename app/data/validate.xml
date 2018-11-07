@@ -1,17 +1,34 @@
 <validates>
 	<validate>
 		<userid>huangyunsong</userid>
+		<weixinid></weixinid>
+		<name>黄云松</name>
 		<endvalidate>20201212</endvalidate>
-		<description><![CDATA[]]></description>
+		<pricetype>PTAY3000</pricetype>
+		<description>
+			<item><![CDATA[2012/12/1交年费3000]]></item>
+			<item><![CDATA[2013/12/2交年费3000]]></item>
+		</description>
 	</validate>
 	<validate>
 		<userid>huhoucun</userid>
+		<weixinid></weixinid>
+		<name>胡厚存</name>
 		<endvalidate>20181212</endvalidate>
-		<description><![CDATA[]]></description>
+		<pricetype>PTAY3500</pricetype>
+		<description>
+			<item><![CDATA[2012/12/2交年费3000]]></item>
+			<item><![CDATA[2013/12/3交年费3000]]></item>
+		</description>
 	</validate>
 	<validate>
 		<userid>huzhenghao</userid>
-		<endvalidate>119</endvalidate>
-		<description><![CDATA[]]></description>
+		<weixinid></weixinid>
+		<name>胡正昊</name>
+		<endvalidate>20190101</endvalidate>
+		<pricetype>PTAY6000</pricetype>
+		<description>
+			<item><![CDATA[1.2018/1/1交年费6000]]></item>
+		</description>
 	</validate>
 </validates>

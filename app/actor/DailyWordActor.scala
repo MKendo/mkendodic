@@ -14,7 +14,7 @@ object DailyWordActor {
 }
 
 class DailyWordActor extends Actor {
-    def receive = {
+  def receive = {
     case DailyWord() => {
       val dictionary = {
         scala.xml.XML.loadFile("app/data/kendodictionary.xml")
