@@ -86,10 +86,11 @@ class UpdateValidateController @Inject()(cc: ControllerComponents, system: Actor
     }
   }
 
+  /*
   def updateVallidate()  = {
 
   }
-
+*/
 
 
 }
