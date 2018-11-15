@@ -1,6 +1,6 @@
 GET        /                       controllers.HomeController.index
 
-->         /v1/posts               v1.post.PostRouter
+#->         /v1/posts               v1.post.PostRouter
 
 # 剑道辞典
 GET        /search/:key           controllers.SearchDirctionaryControlller.search(key:String)
@@ -13,7 +13,9 @@ GET        /dailyword/show        controllers.DailyWordController.show()
 GET        /kendoentry/tochinese  controllers.KendoEntryController.show()
 
 # 会员管理
+#查询会员有效期
 GET        /user/validate/:userid  controllers.SearchValidateController.searchVallidate(userid:String)
+#查询并更新会员有效期，适用场景：续费
 GET        /user/validateupdate  controllers.UpdateValidateController.searchVallidate()
 
 # 微信接口
