@@ -19,7 +19,7 @@ libraryDependencies += "io.gatling" % "gatling-test-framework" % "2.2.2" % Test
 
 
 // The Play project itself
-lazy val root = (project in file("."))
+lazy val mkendodic = (project in file("."))  // 改成自己的项目ID，debug时不会报找不到product ID的错误
   .enablePlugins(Common, PlayScala, GatlingPlugin)
   .configs(GatlingTest)
   .settings(inConfig(GatlingTest)(Defaults.testSettings): _*)

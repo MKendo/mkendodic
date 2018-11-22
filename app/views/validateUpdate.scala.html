@@ -1,0 +1,31 @@
+@import model.ValidateDescription
+@(validates: Seq[ValidateDescription], form: Form[ValidateDescriptionForm.ValidateData], postUrl:Call)(implicit request: MessagesRequestHeader)
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>会员费续期</title>
+    </head>
+    <body>
+        @if(form.hasGlobalErrors) {
+            <div>hasGlobaErrors</div>
+            @form.globalErrors.map { error: FormError =>
+                <div>
+                    @error.key: @error.message
+                </div>
+            }
+        }
+
+        <div>当前信息</div>
+        @for(validate <- validates) {
+            <div>@validate.endValidate @validate.description</div>
+        }
+
+        @helper.form(postUrl) {
+            @helper.inputText(form("userId"), '_label -> "用户名", '_help -> "必填哦")
+            @helper.inputText(form("endValidate"), '_label -> "新到期日", '_help -> "必填哦")
+            @helper.inputText(form("description"), '_label -> "续费说明")
+            <button>会费续期</button>
+        }
+    </body>
+</html>
