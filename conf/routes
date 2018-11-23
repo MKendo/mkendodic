@@ -13,13 +13,14 @@ GET        /dailyword/show        controllers.DailyWordController.show()
 GET        /kendoentry/tochinese  controllers.KendoEntryController.show()
 
 # 会员管理
-# 查询指定会员的有效期
+# 快捷查询会员的有效期
 GET        /user/validate/:userid  controllers.SearchValidateController.searchVallidate(userid:String)
-# 续费，更新有效期并说明最新的续费情况
-GET        /user/validateupdate  controllers.UpdateValidateController.searchVallidate()
-# 新的续费
-GET       /user/validate2     controllers.ValidateController.searchValidates
-POST      /user/validate2     controllers.ValidateController.createValidateDescription
+# 查询会员到期日及历史缴费情况
+GET        /user/validatesearch  controllers.UpdateValidateController.searchVallidate()
+# 续费
+# GET       /user/validateupdate     controllers.ValidateController.searchValidates
+GET       /user/validateupdate/:userid controllers.ValidateController.searchValidates(userid: String)
+POST      /user/validateupdate     controllers.ValidateController.createValidateDescription
 
 # 微信接口
 # GET        /wx/mkserver              controllers.wx.CheckSignatureController.checksg() # 签名认证

@@ -1,5 +1,5 @@
 @import model.ValidateDescription
-@(validates: Seq[ValidateDescription], form: Form[ValidateDescriptionForm.ValidateData], postUrl:Call)(implicit request: MessagesRequestHeader)
+@(userid:String, name:String, endvalidate:String, validates: Seq[ValidateDescription], form: Form[ValidateDescriptionForm.ValidateData], postUrl:Call)(implicit request: MessagesRequestHeader)
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -16,14 +16,19 @@
             }
         }
 
-        <div>当前信息</div>
-        @for(validate <- validates) {
-            <div>@validate.endValidate @validate.description</div>
+        @if(userid.isEmpty){
+
+         }else{
+            <div>@name（@userid）的到期日为：<b>@endvalidate</b></div>
+            <div>历史缴费信息如下：</div>
+            @for(validate <- validates) {
+                <div>@validate.description</div>
+            }
         }
 
         @helper.form(postUrl) {
-            @helper.inputText(form("userId"), '_label -> "用户名", '_help -> "必填哦")
-            @helper.inputText(form("endValidate"), '_label -> "新到期日", '_help -> "必填哦")
+            @helper.inputText(form("userId"), '_label -> "用户名", '_help -> "用户名（真实姓名全拼）")
+            @helper.inputText(form("endValidate"), '_label -> "新到期日", '_help -> "请填写本次续费后的有效期")
             @helper.inputText(form("description"), '_label -> "续费说明")
             <button>会费续期</button>
         }

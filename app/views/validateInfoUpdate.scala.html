@@ -1,5 +1,5 @@
 @import model.ValidateDescription
-@(name: String, validate: String , descriptions: Array[String])
+@(userid: String, name: String, endvalidate: String , descriptions: Array[String])
 
 <!DOCTYPE html>
 <html lang="en">
@@ -14,24 +14,13 @@
         <button type="submit" id="search" >搜索</button>
     }
     <br />
-    <br/>
-    <br/>
-    @name 的会员有效期至：<b>@validate</b>
-    <br/>
-    <br/>
-    <div id="updateForm" style="display: none">
-    @helper.form(action = routes.UpdateValidateController.searchVallidate()) {
-        新的有效期：<input type="text" name="validate" value=""/><br/>
-        说明：<input type="text" name="description" placeholder="本次缴费情况说明" /><br/>
-        <button type="submit" id="moodify">提交</button><br/>
-    }
-    </div>
+    @name 的会员有效期至：<b>@endvalidate</b>
 <hr/>
 历史缴费信息如下：<br/>
 <ul>
 @for( item <- descriptions){
   <li>@item</li>}
 </ul>
-
+<a href=@routes.ValidateController.searchValidates(userid)>续费</a>
 </body>
 </html>

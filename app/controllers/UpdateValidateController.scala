@@ -36,7 +36,7 @@ class UpdateValidateController @Inject()(cc: ControllerComponents, system: Actor
         val validate = (validateNode \ "endvalidate").text
         val descriptionNodes: Array[Node] = (validateNode \ "description" \ "item").toArray
         val descriptions: Array[String] = descriptionNodes.map(node => node.text)
-        Ok(views.html.validateInfoUpdate(name, validate, descriptions))
+        Ok(views.html.validateInfoUpdate(userid, name, validate, descriptions))
       }
       }
     }
@@ -57,7 +57,7 @@ class UpdateValidateController @Inject()(cc: ControllerComponents, system: Actor
         val validate = (validateNode \ "endvalidate").text
         val descriptionNodes: Array[Node] = (validateNode \ "description" \ "item").toArray
         val descriptions: Array[String] = descriptionNodes.map(node => node.text)
-        Ok(views.html.validateInfoUpdate(name, validate, descriptions))
+        Ok(views.html.validateInfoUpdate(userid, name, validate, descriptions))
       }
       }
     }
@@ -80,7 +80,7 @@ class UpdateValidateController @Inject()(cc: ControllerComponents, system: Actor
         val newValidate = (validateNode \ "endvalidate").text
         val newDescriptionNodes: Array[Node] = (validateNode \ "description" \ "item").toArray
         val newDescriptions: Array[String] = newDescriptionNodes.map(node => node.text)
-        Ok(views.html.validateInfoUpdate(newName, validate, newDescriptions))
+        Ok(views.html.validateInfoUpdate(userid, newName, validate, newDescriptions))
       }
       }
     }
