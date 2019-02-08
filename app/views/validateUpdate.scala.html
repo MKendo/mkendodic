@@ -1,5 +1,5 @@
 @import model.ValidateDescription
-@(userid:String, name:String, endvalidate:String, validates: Seq[ValidateDescription], form: Form[ValidateDescriptionForm.ValidateData], postUrl:Call)(implicit request: MessagesRequestHeader)
+@(userid:String, name:String, endvalidate:String, descriptions: Array[String], form: Form[ValidateDescriptionForm.ValidateData], postUrl:Call)(implicit request: MessagesRequestHeader)
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -21,8 +21,8 @@
          }else{
             <div>@name（@userid）的到期日为：<b>@endvalidate</b></div>
             <div>历史缴费信息如下：</div>
-            @for(validate <- validates) {
-                <div>@validate.description</div>
+            @for(description <- descriptions) {
+                <div>@description</div>
             }
         }
 

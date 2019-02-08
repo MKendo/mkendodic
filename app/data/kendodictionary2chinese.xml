@@ -1,0 +1,47 @@
+<dictionary id="" name="剑道 和英辞典" author="全日本剑道连盟出版 - 明剑馆翻译开发">
+    <entry id="00000">
+        <keys>
+            <key language="chinese">啊嘎陆</key>
+            <key language="chinese">agaru(v.)</key>
+        </keys>
+        <descriptions>
+            <description language="chinese">試合大会出場平常精神状態興奮身稽古事段落終。腕前上達。段位。</description>
+            <description language="chinese">我也不会翻译，随便写一下。。。</description>
+        </descriptions>
+        <resources>
+            <resource type="image" url=""></resource>
+            <resource type="audio"></resource>
+            <resource type="video"></resource>
+        </resources>
+    </entry>
+    <entry id="00001">
+        <keys>
+            <key language="chinese">中段</key>
+            <key language="chinese">相中段</key>
+        </keys>
+        <descriptions>
+            <description language="chinese">試合稽古中段に構状態。</description>
+            <description language="chinese">中段：一种攻守兼备的姿势</description>
+        </descriptions>
+        <resources>
+            <resource type="image" url=""></resource>
+            <resource type="audio"></resource>
+            <resource type="video"></resource>
+        </resources>
+    </entry>
+	<entry id="00002">
+        <keys>
+            <key language="chinese">面金</key>
+            <key language="chinese">面</key>
+        </keys>
+        <descriptions>
+            <description language="chinese">剑道面部护具，前方的金属部分，可以保护面部又能够看到对手</description>
+            <description language="chinese">剑道头盔金属的部分</description>
+        </descriptions>
+        <resources>
+            <resource type="image" url=""></resource>
+            <resource type="audio"></resource>
+            <resource type="video"></resource>
+        </resources>
+    </entry>
+</dictionary>

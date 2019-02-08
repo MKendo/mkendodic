@@ -10,9 +10,6 @@ import akka.util.Timeout
 
 import scala.concurrent.duration._
 import akka.pattern.ask
-import play.api.Logger
-
-import scala.xml.{Elem, Node, NodeSeq}
 import scala.concurrent._
 import ExecutionContext.Implicits.global
 import play.api.mvc._
@@ -29,7 +26,7 @@ class UpdateValidateController @Inject()(cc: ControllerComponents, system: Actor
   val searchValidateAct = system.actorOf(SearchValidateActor.props,"search-validate1")
   val updateValidateActor = system.actorOf(UpdateValidateActor.props,"update-validate1")
 
-  def searchVallidate(userid: String)  = {
+  def searchValidate(userid: String)  = {
     Action.async { implicit request =>
       (searchValidateAct ? SearchValidate(userid)).mapTo[NodeSeq].map { validateNode => {
         val name = (validateNode \ "name").text
@@ -43,7 +40,7 @@ class UpdateValidateController @Inject()(cc: ControllerComponents, system: Actor
 
   }
 
-  def searchVallidate()  = {
+  def searchValidate()  = {
     Action.async { implicit request =>
       val userid = {
         if(request.getQueryString("userid").isEmpty)

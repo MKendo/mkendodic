@@ -1,7 +1,6 @@
 package actor
 
 import actor.UpdateValidateActor.{UpdateValidate, getClass}
-import actor.SearchValidateActor.SearchValidate
 import akka.actor.{Actor, Props}
 import play.api.Logger
 

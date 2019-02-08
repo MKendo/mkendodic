@@ -14,9 +14,10 @@ GET        /kendoentry/tochinese  controllers.KendoEntryController.show()
 
 # 会员管理
 # 快捷查询会员的有效期
-GET        /user/validate/:userid  controllers.SearchValidateController.searchVallidate(userid:String)
+GET        /user/validate/:userid  controllers.SearchValidateController.searchValidate(userid:String)
 # 查询会员到期日及历史缴费情况
-GET        /user/validatesearch  controllers.UpdateValidateController.searchVallidate()
+GET        /user/validatesearch  controllers.UpdateValidateController.searchValidate()
+
 # 续费
 # GET       /user/validateupdate     controllers.ValidateController.searchValidates
 GET       /user/validateupdate/:userid controllers.ValidateController.searchValidates(userid: String)

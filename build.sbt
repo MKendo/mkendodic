@@ -17,6 +17,12 @@ libraryDependencies += "org.scalatestplus.play" %% "scalatestplus-play" % "3.0.0
 libraryDependencies += "io.gatling.highcharts" % "gatling-charts-highcharts" % "2.2.2" % Test
 libraryDependencies += "io.gatling" % "gatling-test-framework" % "2.2.2" % Test
 
+libraryDependencies += "org.xerial" % "sqlite-jdbc" % "3.25.2"
+libraryDependencies ++= Seq(
+ jdbc,
+ "com.typesafe.play" %% "anorm" % "2.5.1"
+)
+
 
 // The Play project itself
 lazy val mkendodic = (project in file("."))  // 改成自己的项目ID，debug时不会报找不到product ID的错误
