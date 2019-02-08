@@ -13,7 +13,7 @@ GET        /dailyword/show        controllers.DailyWordController.show()
 GET        /kendoentry/tochinese  controllers.KendoEntryController.show()
 
 # 会员管理
-# 快捷查询会员的有效期
+# 快捷查询会员的有效期 给“明剑小明”小程序使用，不需要登录，只查询最基本的有效期信息
 GET        /user/validate/:userid  controllers.SearchValidateController.searchValidate(userid:String)
 # 查询会员到期日及历史缴费情况
 GET        /user/validatesearch  controllers.UpdateValidateController.searchValidate()
