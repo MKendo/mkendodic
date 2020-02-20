@@ -23,7 +23,8 @@ class MemberService @Inject()(dbapi: DBApi, userid: String) {
     * @return
     */
   def findName(): String ={
-    db.withConnection { implicit c:java.sql.Connection =>
+    db.withConnection {
+      implicit c:java.sql.Connection =>
       val name: Option[String] = SQL("select name from members where userid={memberid}").on(
         "memberid" -> memberid).as(
         SqlParser.str("members.name").singleOpt)

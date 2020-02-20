@@ -23,9 +23,14 @@ GET        /user/validatesearch  controllers.UpdateValidateController.searchVali
 GET       /user/validateupdate/:userid controllers.ValidateController.searchValidates(userid: String)
 POST      /user/validateupdate     controllers.ValidateController.createValidateDescription
 
+# booking
+# GET       /user/booking    controllers.BookingController.createBookingImpl()
+
 # 微信接口
-# GET        /wx/mkserver              controllers.wx.CheckSignatureController.checksg() # 签名认证
+# GET       /wx/mkserver              controllers.wx.CheckSignatureController.checksg() # 签名认证
 GET        /wx/mkserver            controllers.wx.WxSearchValidateController.searchVallidate()
+GET        /wx/openid/:jscode      controllers.wx.WxGetUserInfo.getOpenid(jscode:String)
+
 
 # Map static resources from the /public folder to the /assets URL path
 GET        /assets/*file          controllers.Assets.at(path="/public", file)

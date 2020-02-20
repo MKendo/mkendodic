@@ -10,16 +10,20 @@ import service.MemberService
   */
 class SearchValidateController @Inject()(cc: ControllerComponents, system: ActorSystem)(dbapi: DBApi) extends AbstractController(cc) {
 
-  def searchValidate(userid: String) = {
-    val memberService = new MemberService(dbapi, userid)
+  def searchValidate(userid: String) = {    
     Action {
-      val name = memberService.findName();
-      val endvalidate = memberService.findEndValidate()
-      val descriptions  = memberService.findDescriptions()
-      if(name.isEmpty){
-        Ok("会员名册中没找到 "+userid+" 的信息，如果您是明剑馆会员请联系西瓜。")
-      }else {
-        Ok(userid + "您的有效期至：" + endvalidate)
+      if(userid=="xiaoming"){
+        Ok("别闹，请输入自己的姓名全拼。")
+      }else{
+        val memberService = new MemberService(dbapi, userid)
+        val name = memberService.findName();
+        val endvalidate = memberService.findEndValidate()
+        val descriptions  = memberService.findDescriptions()
+        if(name.isEmpty){
+          Ok("会员名册中没找到 "+userid+" 的信息，如果您是明剑馆会员请联系西瓜。")
+        }else {
+          Ok(userid + "您的有效期至 \n\r" + endvalidate)
+        }
       }
     }
   }
