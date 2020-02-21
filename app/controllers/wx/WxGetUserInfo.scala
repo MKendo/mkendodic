@@ -8,7 +8,7 @@ import play.api.libs.json._
 
 class WxGetUserInfo @Inject()(cc: ControllerComponents) extends AbstractController(cc) {
   val APPID : String = "wxe6a6249f535bcf1c"
-  val SECRET : String = "3693fe2c3d3a7ae45d3f4d40d0f5e68d"
+  val SECRET : String = "1690519b355a6c59c66687084359ea2c"
 
   def getOpenid(jsCode : String) =Action{
     Ok(getOpenidFromWx(jsCode))
@@ -23,9 +23,16 @@ class WxGetUserInfo @Inject()(cc: ControllerComponents) extends AbstractControll
 
   def getOpenidFromWx(jsCode : String): String ={
     println("getOpenidFromWx start...")
-    val code2Session_url = s"https://api.weixin.qq.com/sns/jscode2session?appid=$APPID&secret=$SECRET&js_code=$jsCode&grant_type=authorization_code"
+    var rjscode=""
+    if(jsCode.startsWith(":")){
+      rjscode = jsCode.substring(1)
+    }
+    val code2Session_url = s"https://api.weixin.qq.com/sns/jscode2session?appid=$APPID&secret=$SECRET&js_code=$rjscode&grant_type=authorization_code"
+    println("code2Session_url = " + code2Session_url)
     val reponseJson = scala.io.Source.fromURL(code2Session_url).mkString
+    println("reponseJson = " + reponseJson)
     val jsonValue = Json.parse(reponseJson)
+    println("jsonValue = " + jsonValue)
     return (jsonValue \\ "openid").mkString
   }
 }

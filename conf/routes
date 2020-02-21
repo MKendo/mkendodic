@@ -30,7 +30,13 @@ POST      /user/validateupdate     controllers.ValidateController.createValidate
 # GET       /wx/mkserver              controllers.wx.CheckSignatureController.checksg() # 签名认证
 GET        /wx/mkserver            controllers.wx.WxSearchValidateController.searchVallidate()
 GET        /wx/openid/:jscode      controllers.wx.WxGetUserInfo.getOpenid(jscode:String)
+POST       /wx/userlogin           controllers.wx.WxUserController.userInfoPost
 
+# suburi
+POST       /suburi/post            controllers.SuburiController.postNumber
+GET        /suburi/total/:userid          controllers.SuburiController.getUserAmountTotal(userid:String)
+GET        /suburi/ranking/:userid          controllers.SuburiController.getRanking(userid:String)
+GET        /suburi/rankings/:count          controllers.SuburiController.getRankingList(count:String)
 
 # Map static resources from the /public folder to the /assets URL path
 GET        /assets/*file          controllers.Assets.at(path="/public", file)

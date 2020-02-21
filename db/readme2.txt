@@ -28,4 +28,29 @@ description ntext,
 enable int
 );
 
-insert into configs(code,name,value,enable)  values('wxgetopenid','微信获取openid的接口url','https://api.weixin.qq.com/sns/jscode2session?appid=wxe6a6249f535bcf1c&secret=3693fe2c3d3a7ae45d3f4d40d0f5e68d&js_code=__js_code__&grant_type=authorization_code',1);
+*******************************************************
+素振数量排名相关的表
+*******************************************************
+create table user_suburis(
+id integer primary key not null,
+userid int,
+amount int,
+commitdatetime datetime not null,
+description ntext,
+enable int
+);
+
+--前三名
+ select userid,sum(amount) total from user_suburis group by userid order by total desc limit 3;
+
+ select u.id,u.wxname,sum(amount) total from user_suburis us left join users u on us.userid=u.id group by userid order by total desc limit 3;
+
+ select u.id,u.wxname,sum(amount) total,us.commitdatetime from user_suburis us left join users u on us.userid=u.id group by userid having us.commitdatetime=max(us.commitdatetime) order by total desc limit 3;
+
+select  u.id,u.wxname,sum(amount) total,us.commitdatetime from user_suburis us left join users u on us.userid=u.id group by userid having us.commitdatetime=max(us.commitdatetime) order by total desc limit 3;
+
+
+
+--指定userid的排名
+ select userid,sum(amount) total from user_suburis group by userid order by total;
+
