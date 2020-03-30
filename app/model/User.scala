@@ -5,6 +5,7 @@ case class User(id:Int,
                 mobile: String,
                 password: String,
                 wxOpenId: String,
+                wxUnionId: String,
                 wxName: String,
                 wxImgUrl: String,
                 description: String)

@@ -8,7 +8,7 @@ import javax.inject.Inject
 import model.{User, WxUseridInfo}
 import play.api.db.DBApi
 
-class UserService @Inject()(dbapi: DBApi) {
+class DicUserService @Inject()(dbapi: DBApi) {
 
   private val db = dbapi.database("default")
 
@@ -22,7 +22,7 @@ class UserService @Inject()(dbapi: DBApi) {
         db.withConnection {
           implicit c: java.sql.Connection =>
             val newsParser: RowParser[User] = Macro.namedParser[User]
-            return SQL("select * from users where id={db_userid}")
+            return SQL("select * from dicusers where id={db_userid}")
               .on("db_userid" -> userid)
               .as(newsParser.single)
         }
@@ -31,6 +31,36 @@ class UserService @Inject()(dbapi: DBApi) {
           println("findByUserid() == null " + ex.getMessage)
           return null;
         }
+      }
+    }
+  }
+
+  def findByWxDicOpenid(openid: String): User ={
+    println(s"findByWxDicOpenid = $openid")
+    if(openid==null || openid.equals("null")){
+      println("findByWxDicOpenid 时传入的openid为空")
+      return null
+    }
+
+    try {
+      db.withConnection {
+        implicit c: java.sql.Connection =>
+          val newsParser: RowParser[User] = Macro.namedParser[User]
+          val users = SQL("select * from dicusers where wxopenid={db_openid} ")
+            .on("db_dicopenid" -> openid)
+            .as(newsParser.*)
+          println("user = " + users)
+          if(users.length==1) {
+            return users(0)
+          }else{
+            println(s"根据wxopenid($openid)查询到多个user:"+users.length)
+            return null;
+          }
+      }
+    }catch{
+      case ex:Exception =>{
+        println("findByWxDicOpenid() == null " + ex.getMessage + " " + ex.getCause)
+        throw new Exception(ex.getMessage,ex.getCause);
       }
     }
   }
@@ -46,7 +76,7 @@ class UserService @Inject()(dbapi: DBApi) {
       db.withConnection {
         implicit c: java.sql.Connection =>
           val newsParser: RowParser[User] = Macro.namedParser[User]
-          val users = SQL("select * from users where wxopenid={db_openid} ")
+          val users = SQL("select * from dicusers where wxopenid={db_openid} ")
             .on("db_openid" -> openid)
             .as(newsParser.*)
           println("user = " + users)
@@ -70,7 +100,7 @@ class UserService @Inject()(dbapi: DBApi) {
     try {
       db.withConnection {
         implicit c: java.sql.Connection =>
-          SQL("insert into users(name,mobile,password,wxopenid,wxunionid,wxname,wximgurl,commitdatetime,description,enable) " +
+          SQL("insert into dicusers(name,mobile,password,wxopenid,wxunionid,wxname,wximgurl,commitdatetime,description,enable) " +
             "values({db_name},{db_mobile},{db_password},{db_wxopenid},{db_wxunionid},{db_wxname},{db_wximgurl},{db_commitdatetime},{db_description},1)").on(
             "db_name" -> user.name,
             "db_mobile" -> user.mobile,
@@ -102,7 +132,7 @@ class UserService @Inject()(dbapi: DBApi) {
       }else {
         db.withConnection {
           implicit c: java.sql.Connection =>
-            val result: Option[Long] =SQL("insert into users(name,mobile,password,wxopenid,wxunionid,wxname,wximgurl,commitdatetime,description,enable) " +
+            val result: Option[Long] =SQL("insert into dicusers(name,mobile,password,wxopenid,wxunionid,wxname,wximgurl,commitdatetime,description,enable) " +
               "values('','','',{db_wxopenid},{db_wxunionid},'','',{db_commitdatetime},'',1)").on(
               "db_wxopenid" -> wxUseridInfo.openId,
               "db_wxunionid" -> wxUseridInfo.unionId,
@@ -135,7 +165,7 @@ class UserService @Inject()(dbapi: DBApi) {
     try {
       db.withConnection {
         implicit c: java.sql.Connection =>
-          SQL("update users set wxunionid={db_wxunionid} " +
+          SQL("update dicusers set wxunionid={db_wxunionid} " +
             "where id={db_userId}").on(
             "db_wxunionid" -> wxunionId,
             "db_userId" -> userId
@@ -163,7 +193,7 @@ class UserService @Inject()(dbapi: DBApi) {
     try {
       db.withConnection {
         implicit c: java.sql.Connection =>
-          SQL("update users set wxname={db_wxname},wximgurl={db_wximgurl} " +
+          SQL("update dicusers set wxname={db_wxname},wximgurl={db_wximgurl} " +
             "where id={db_userId}").on(
             "db_wxname" -> wxname,
             "db_wximgurl" -> wximgurl,
@@ -197,7 +227,7 @@ class UserService @Inject()(dbapi: DBApi) {
     try {
       db.withConnection {
         implicit c: java.sql.Connection =>
-          SQL("update users set wxname={db_wxname},wxopenid={db_openid},wximgurl={db_wximgurl} " +
+          SQL("update dicusers set wxname={db_wxname},wxopenid={db_openid},wximgurl={db_wximgurl} " +
             "where id={db_userId}").on(
             "db_wxname" -> user.wxName,
             "db_openid" -> user.wxOpenId,

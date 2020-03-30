@@ -26,17 +26,43 @@ POST      /user/validateupdate     controllers.ValidateController.createValidate
 # booking
 # GET       /user/booking    controllers.BookingController.createBookingImpl()
 
-# 微信接口
-# GET       /wx/mkserver              controllers.wx.CheckSignatureController.checksg() # 签名认证
+# 微信接口 签名认证
+# GET       /wx/mkserver              controllers.wx.CheckSignatureController.checksg()
 GET        /wx/mkserver            controllers.wx.WxSearchValidateController.searchVallidate()
+# 即将作废
 GET        /wx/openid/:jscode      controllers.wx.WxGetUserInfo.getOpenid(jscode:String)
+
+
+# 即将作废
 POST       /wx/userlogin           controllers.wx.WxUserController.userInfoPost
+
+# suburi app adduser with wxopenid and wxunionid
+GET        /wx/userregister/:jscode    controllers.wx.WxUserController.userInfoRegister(jscode:String)
+POST       /wx/userconfirm           controllers.wx.WxUserController.userLoginConfirm
+POST       /wx/userupdate          controllers.wx.WxUserController.updateWxUserInfo
 
 # suburi
 POST       /suburi/post            controllers.SuburiController.postNumber
 GET        /suburi/total/:userid          controllers.SuburiController.getUserAmountTotal(userid:String)
 GET        /suburi/ranking/:userid          controllers.SuburiController.getRanking(userid:String)
 GET        /suburi/rankings/:count          controllers.SuburiController.getRankingList(count:String)
+GET        /suburi/rankinglist/:pagecount          controllers.SuburiController.getRankingListPageable(pagecount:String)
+POST       /suburi/zan         controllers.SuburiController.zan()
+
+
+# Dictionaries app adduser with wxopenid and wxunionid
+GET        /wx/dicuserregister/:jscode    controllers.wx.WxDicUserController.userInfoRegister(jscode:String)
+POST       /wx/dicuserconfirm           controllers.wx.WxDicUserController.userLoginConfirm
+POST       /wx/dicuserupdate          controllers.wx.WxDicUserController.updateWxUserInfo
+
+# Dictionaries
+GET       /dic/search/:key       controllers.DicEntryController.searchEntries(key:String)
+GET       /dic/entry/:code       controllers.DicEntryController.searchByCode(code:String)
+GET       /dic/comments/:entryCode    controllers.DicEntryController.searchComments(entryCode:String)
+GET       /dic/newcomments       controllers.DicEntryController.searchNewComments
+GET       /dic/deletecomment/:id   controllers.DicEntryController.deleteComment(id:String)
+GET       /dic/entryrandom       controllers.DicEntryController.searchEntryCodeRandom
+POST      /dic/fanyi             controllers.DicEntryController.fanyiPost
 
 # Map static resources from the /public folder to the /assets URL path
 GET        /assets/*file          controllers.Assets.at(path="/public", file)

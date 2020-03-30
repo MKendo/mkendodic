@@ -4,7 +4,7 @@ import javax.inject.Inject
 import model.Ranking
 import play.api.db.DBApi
 import play.api.mvc.{AbstractController, ControllerComponents}
-import service.SuburiService
+import service.{CommonUnit, SuburiService}
 import play.api.libs.json._
 
 class SuburiController @Inject()(cc: ControllerComponents)(dbapi: DBApi) extends AbstractController(cc) {
@@ -63,24 +63,27 @@ class SuburiController @Inject()(cc: ControllerComponents)(dbapi: DBApi) extends
   def getRanking(userId:String) = Action {
     implicit request => {
       if(userId==null || userId.isEmpty || userId.startsWith(":") && userId.length==1){
-        println("获取指定用户排名时发生错误,传得的userId不能为空" + userId)
+        println("获取指定用户排名时发生错误,传得的userId不能为空：" + userId)
         Ok("0")
       }
 
       val suburiService = new SuburiService(dbapi)
-      var result = ""
+      var uuserId = ""
       if(userId.startsWith(":")){
-        result = suburiService.findRanking(userId.substring(1).toInt)
-      }else{
-        result = suburiService.findRanking(userId.toInt)
+        uuserId = userId.substring(1)
+      }
+      if(!CommonUnit.isIntByRegex(uuserId)){
+        println("获取指定用户排名时发生错误,传得的userId不是整型数字：" + uuserId)
+        Ok("0")
       }
 
-      try(result.toInt)
-      catch{case ex:Exception => {
-        println("获取指定用户排名时发生错误：" + result + "|" + ex.getMessage)
+      val result = suburiService.findRanking(uuserId.toInt)
+      if(CommonUnit.isIntByRegex(result)){
+        Ok(result)
+      }else{
+        println("获取指定用户排名时发生错误，返回的结果是：" + result)
         Ok("0")
-      }}
-      Ok(result)
+      }
     }
   }
 
@@ -90,24 +93,79 @@ class SuburiController @Inject()(cc: ControllerComponents)(dbapi: DBApi) extends
       implicit val rankingWrites = new Writes[Ranking] {
         def writes(ranking: Ranking) = Json.obj(
           "ranking" -> ranking.ranking,
-          "userId" -> ranking.userId,
+          "userId" -> ranking.uuserId,
           "name" -> ranking.name,
           "imgUrl" -> ranking.imgUrl,
           "total" -> ranking.total,
-          "updateDatetime" -> ranking.updateDatetime)
+          "updateDatetime" -> ranking.updateDatetime,
+          "zan" -> ranking.zan)
       }
-      if(count.startsWith(":")){
-        val rankings = suburiService.findRankingList(count.substring(1).toInt)
-        println("rankings count = " + rankings.length)
-        val rankingJson = Json.toJson(rankings)
-        println("rankingJson = " + rankingJson.toString())
-        Ok(rankingJson)
+      var limit = 0
+      if(count.startsWith(":") && CommonUnit.isIntByRegex(count.substring(1))){
+        limit = count.substring(1).toInt
+      }else if(CommonUnit.isIntByRegex(count)){
+        limit = count.toInt
       }else{
-        val rankings = suburiService.findRankingList(count.toInt)
-        println("rankings count = " + rankings.length)
-        val rankingJson = Json.toJson(rankings)
-        println("rankingJson = " + rankingJson.toString())
-        Ok(rankingJson)
+        throw new Exception(s"输入的参数不是数字：pagecount = $count")
+      }
+
+      val rankings = suburiService.findRankingList(limit, 0)
+      println("rankings count = " + rankings.length)
+      val rankingJson = Json.toJson(rankings)
+      //println("rankingJson = " + rankingJson.toString())
+      Ok(rankingJson)
+    }
+  }
+
+  def getRankingListPageable(pagecount: String) = Action {
+    implicit request => {
+      println("getRankingListPageable........")
+      val suburiService = new SuburiService(dbapi)
+      implicit val rankingWrites = new Writes[Ranking] {
+        def writes(ranking: Ranking) = Json.obj(
+          "ranking" -> ranking.ranking,
+          "userId" -> ranking.uuserId,
+          "name" -> ranking.name,
+          "imgUrl" -> ranking.imgUrl,
+          "total" -> ranking.total,
+          "updateDatetime" -> ranking.updateDatetime,
+          "zan" -> ranking.zan)
+      }
+
+      val limit = 10;//每页10条
+      var offset = 0
+      if(pagecount.startsWith(":") && CommonUnit.isIntByRegex(pagecount.substring(1))){
+        offset = (pagecount.substring(1).toInt-1)*10
+      }else if(CommonUnit.isIntByRegex(pagecount)){
+        offset = (pagecount.toInt-1)*10
+      }else{
+        throw new Exception(s"输入的参数不是数字：pagecount = $pagecount")
+      }
+
+      val rankings = suburiService.findRankingList(limit,offset)
+      println("rankings count = " + rankings.length)
+      val rankingJson = Json.toJson(rankings)
+      //println("rankingJson = " + rankingJson.toString())
+      Ok(rankingJson)
+    }
+  }
+
+  /**
+    * 点赞
+    * @return
+    */
+  def zan() =Action{
+
+    implicit request => {
+      val userId = request.body.asFormUrlEncoded.get("userid").head //点赞的人
+      val zanUserId = request.body.asFormUrlEncoded.get("zanuserid").head //被赞的人
+
+      if(CommonUnit.isIntByRegex(userId) && CommonUnit.isIntByRegex(zanUserId)) {
+        val suburiService = new SuburiService(dbapi)
+        val result = suburiService.zan(userId.toInt,zanUserId.toInt)
+        Ok(result)
+      }else{
+        Ok(s"点赞的时候传入的参数有误：userId=$userId zanUserId=$zanUserId")
       }
     }
   }

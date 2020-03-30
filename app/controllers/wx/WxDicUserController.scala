@@ -6,51 +6,7 @@ import play.api.db.DBApi
 import play.api.mvc.{AbstractController, ControllerComponents}
 import service.{CommonUnit, DicUserService, UserService}
 
-class WxUserController @Inject()(cc: ControllerComponents)(dbapi: DBApi) extends AbstractController(cc) {
-
-  /**
-    * 注册或者登录, 即将废弃
-    * @return
-    */
-  def userInfoPost() = Action{
-
-    implicit request => {
-      println("userInfoPost...")
-
-      val wxopenId = request.body.asFormUrlEncoded.get("wxopenid").head
-      val wxname = request.body.asFormUrlEncoded.get("wxname").head
-      val wximgUrl = request.body.asFormUrlEncoded.get("wximgurl").head
-      println("wxopenId = " + wxopenId)
-      println("wxname = " + wxname)
-      println("wximgUrl = " + wximgUrl)
-
-      println(s"userInfoPost_wxopenId = $wxopenId")
-      println("length = " + wxopenId.length)
-      if (wxopenId == null || wxopenId.equals("") ||wxopenId.equals("null")) {
-        Ok("wxopenId为空")
-      } else {
-        val user = User(-1, "", "", "", wxopenId,"", wxname, wximgUrl, "")
-        val userService = new UserService(dbapi)
-
-        val dbuser = userService.findByWxOpenid(wxopenId)
-
-        //如果所有字段都相同则不更新
-        if(dbuser!=null && user.equals(dbuser)){
-          println(" updateWxUser 提交的用户信息与数据库中完全相同，不需要更新")
-          Ok(s"updateWxUser $dbuser.id")
-        }
-
-        if (dbuser == null) {
-          println("addUser")
-          Ok(userService.addUser(user))
-        } else {
-          println(s"updateWxUser $dbuser")
-          Ok(userService.updateWxUser(dbuser.id, user))
-        }
-      }
-
-    }
-  }
+class WxDicUserController @Inject()(cc: ControllerComponents)(dbapi: DBApi) extends AbstractController(cc) {
 
   //根据jscode存下openid和unionid,用于suburi小程序
   def userInfoRegister(jsCode : String) = Action{
@@ -62,9 +18,9 @@ class WxUserController @Inject()(cc: ControllerComponents)(dbapi: DBApi) extends
       }
 
       val vxGetUserInfo = new WxGetUserInfo(cc)
-      val userService = new UserService(dbapi)
+      val userService = new DicUserService(dbapi)
 
-      val wxUseridInfo = vxGetUserInfo.getUseridInfoFromWx(jsCode)//调用微信接口获取openid,unionid
+      val wxUseridInfo = vxGetUserInfo.getDicUseridInfoFromWx(jsCode)//调用微信接口获取openid,unionid
       println("openId = " + wxUseridInfo.openId)
 
       try {
@@ -114,7 +70,7 @@ class WxUserController @Inject()(cc: ControllerComponents)(dbapi: DBApi) extends
         println(s"更新用户的信息信息传入的userid不合法：$userid")
         Ok(s"更新用户的信息信息传入的userid不合法：$userid")
       }else{
-        val userService = new UserService(dbapi)
+        val userService = new DicUserService(dbapi)
         Ok(userService.updateSimpleWxUserInfo(userid.toInt, wxname, wximgurl))
       }
     }
@@ -134,7 +90,7 @@ class WxUserController @Inject()(cc: ControllerComponents)(dbapi: DBApi) extends
         println(s"登录时（userLoginConfirm）传入的userid不合法：$userid")
         Ok(s"登录时（userLoginConfirm）传入的userid不合法：$userid")
       }else{
-        val userService = new UserService(dbapi)
+        val userService = new DicUserService(dbapi)
         val dbuser = userService.findByUserid(userid)
         //println("dbuser = " + dbuser)
         if(dbuser!=null && dbuser.id == userid.toInt) {
